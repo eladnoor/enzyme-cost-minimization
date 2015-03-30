@@ -43,14 +43,13 @@ function [c, u, u_cost, up, A_forward, mca_info, c_min, c_max, u_min, u_max, r] 
 % Enzyme cost minimization
 % --------------------------------------------------------------------------------------
 
-opt = optimset('MaxFunEvals',10^15,'MaxIter',10^15,'TolX',10^-10,'Display','off','Algorithm','sqp');
+opt = optimset('MaxFunEvals',1e15,'MaxIter',1e15,'TolX',1e-10,'Display','off','Algorithm','sqp');
 
 network.kinetics = set_kinetics(network,'cs',r);
 
 
 % --------------------------------------------------------------------------------------
 % initialise 
-
 [Mplus, Mminus, Wplus, Wminus, nm, nr] = make_structure_matrices(network.N,network.regulation_matrix,find(network.external));
 
 ind_scored_enzymes = ecm_options.ind_scored_enzymes ;
@@ -92,17 +91,19 @@ x_max(ind_fix) = x_fix(ind_fix);% + 10^-4;
 
 ind_pos = find(v>=0);
 ind_neg = find(v<0);
+%N_forward                   = network.N * diag(sign(v));
+%log_Keq_forward             = diag(sign(v)) * log(r.Keq);
+N_forward(:,ind_pos)        = network.N(:,ind_pos);
+N_forward(:,ind_neg)        = -network.N(:,ind_neg);
+log_Keq_forward(ind_pos,1)  = log(r.Keq(ind_pos));
+log_Keq_forward(ind_neg,1)  = -log(r.Keq(ind_neg));
 
 M_forward(ind_pos,:)        = Mplus(ind_pos,:);
 M_forward(ind_neg,:)        = Mminus(ind_neg,:);
 Mprod_forward(ind_pos,:)    = Mminus(ind_pos,:);
 Mprod_forward(ind_neg,:)    = Mplus(ind_neg,:);
-N_forward(:,ind_pos)        =  network.N(:,ind_pos);
-N_forward(:,ind_neg)        = -network.N(:,ind_neg);
 kc_forward(ind_pos,1)       = r.Kcatf(ind_pos);
 kc_forward(ind_neg,1)       = r.Kcatr(ind_neg);
-log_Keq_forward(ind_pos,1)  = log(r.Keq(ind_pos));
-log_Keq_forward(ind_neg,1)  = -log(r.Keq(ind_neg));
 KM                          = full(r.KM);
 KM(network.N'==0)           = 1;
 KMf                         = exp(sum(Mplus.*log(KM),2));
@@ -134,18 +135,17 @@ pp.ind_not_scored      = ind_not_scored     ;
 % find feasible initial solution (as a test for feasibility) and extreme metabolite profiles
 
 %epsilon = 10^-10;   % flux directions must be possible at least
-epsilon = 1 * 1/RT;  % minimal reaction GFE of 1 kJ/mol is required  
+epsilon = 1/RT;  % minimal reaction GFE of 1 kJ/mol is required  
 
 try
-  [x_start, x1, x2] = find_polytope_centre([],[], N_forward', log_Keq_forward - epsilon, x_min, x_max, 0*x_min);
+    %[x_start, x1, x2] = find_polytope_centre([],[], N_forward', log_Keq_forward - epsilon*(v ~= 0), x_min, x_max, 0*x_min);
+    [x_start, x1, x2] = find_polytope_centre([],[], N_forward', log_Keq_forward - epsilon, x_min, x_max, 0*x_min);
 catch
-  error(sprintf('*** No polytope centre found (where driving forces > %f RT were required) - maybe the concentration constraints are infeasible? ***',epsilon));
-  c = [];  u = [];  u_cost = [];  up = [];  A_forward = [];
-  return
+    error('*** No polytope centre found (where driving forces > %f RT were required) - maybe the concentration constraints are infeasible? ***',epsilon);
 end
+A=[x_start, x1, x2];
 
 X_extreme = [x1, x2]; % matrix with extreme initial concentration vectors
-
 
 % --------------------------------------------------------------------------
 % choose the starting point

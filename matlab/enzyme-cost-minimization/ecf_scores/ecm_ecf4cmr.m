@@ -11,7 +11,9 @@ network.kinetics.u    = ones(size(network.N,2),1);
 
 w = network_velocities(exp(x),network);
 
-u = pp.v./w;
+u = pp.v ./ w;
+
+u(pp.v == 0) = 0; % replace the NaN caused by dividing 0/0 with are zero.
 
 u_tot = sum(pp.enzyme_cost_weights.*u(pp.ind_scored_enzymes));
 
