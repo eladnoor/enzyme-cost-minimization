@@ -52,8 +52,8 @@ switch options.actions,
       my_ecm_options                      = ecm_default_options(my_network);
       my_ecm_options.conc_min             = conc_min; 
       my_ecm_options.conc_max             = conc_max;
-      my_ecm_options.conc_min_default     = 10^-10; 
-      my_ecm_options.conc_max_default     = 10^10; 
+      my_ecm_options.conc_min_default     = 1e-10; 
+      my_ecm_options.conc_max_default     = 1e10; 
       my_ecm_options.ecm_scores           = {'ecf1', 'mdf', 'ecf2s', 'ecf2sp', 'ecf3s', 'ecf3sp', 'ecf4geom', 'ecf4cmr'}; % {'mdf'};%
       my_ecm_options.c_data               = c_data;
       my_ecm_options.u_data               = u_data;

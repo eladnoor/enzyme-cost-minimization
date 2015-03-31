@@ -1,0 +1,2775 @@
+!!SBtab TableName='Reaction' TableType='Reaction'																			
+!Reaction	!SumFormula	!Reaction:Identifiers:kegg.reaction	!IsReversible	!Gene	!bnumbers														
+PTS_RPTSsy	D_Glucose + Phosphoenolpyruvate <=> Pyruvate + D_Glucose_6_phosphate	RPTSsy	1	PTS	b1101 + b2417														
+PGI_R02740	D_Glucose_6_phosphate <=> D_Fructose_6_phosphate	R02740	1	pgi	b4025														
+PFK_R04779	ATP + D_Fructose_6_phosphate <=> ADP + D_Fructose_1_6_bisphosphate	R04779	1	pfkB + pfkA	b1723 + b3916														
+ALD_R01070	D_Fructose_1_6_bisphosphate <=> Glycerone_phosphate + D_Glyceraldehyde_3_phosphate	R01070	1	fbaB + fbaA	b2097 + b2925														
+TIM_R01015	Glycerone_phosphate <=> D_Glyceraldehyde_3_phosphate	R01015	1	tpiA	b3919														
+GAP_R01061	Orthophosphate + NADplus + D_Glyceraldehyde_3_phosphate <=> NADH + _3_Phospho_D_glyceroyl_phosphate	R01061	1	gapA	b1779														
+PGK_R01512	ADP + _3_Phospho_D_glyceroyl_phosphate <=> ATP + _3_Phospho_D_glycerate	R01512	1	pgk	b2926														
+PGM_R01518	_3_Phospho_D_glycerate <=> _2_Phospho_D_glycerate	R01518	1	gpmA + gpmM + ytjC	b0755 + b3612 + b4395														
+ENO_R00658	_2_Phospho_D_glycerate <=> H2O + Phosphoenolpyruvate	R00658	1	eno	b2779														
+PYK_R00200	ADP + Phosphoenolpyruvate <=> Pyruvate + ATP	R00200	1	pykF + pykA	b1676 + b1854														
+PDH_R00209	Pyruvate + NADplus + CoA <=> Acetyl_CoA + NADH + CO2	R00209	1	aceE + aceF + lpd	b0114 + b0115 + b0116														
+ZWF_R00835	NADPplus + D_Glucose_6_phosphate <=> NADPH + D_Glucono_1_5_lactone_6_phosphate	R00835	1	zwf	b1852														
+GLH_R02035	H2O + D_Glucono_1_5_lactone_6_phosphate <=> _6_Phospho_D_gluconate	R02035	1	pgl	b0767														
+PGD_R01528	_6_Phospho_D_gluconate + NADPplus <=> NADPH + D_Ribulose_5_phosphate + CO2	R01528	1	gnd	b2029														
+RPI_R01056	D_Ribulose_5_phosphate <=> D_Ribose_5_phosphate	R01056	1	rpiA + rpiB	b2914 + b4090														
+RPE_R01529	D_Ribulose_5_phosphate <=> D_Xylulose_5_phosphate	R01529	1	rpe	b3386														
+TXT_R01641	D_Xylulose_5_phosphate + D_Ribose_5_phosphate <=> D_Glyceraldehyde_3_phosphate + Sedoheptulose_7_phosphate	R01641	1	tktB + tktA	b2465 + b2935														
+TAL_R08575	D_Glyceraldehyde_3_phosphate + Sedoheptulose_7_phosphate <=> D_Erythrose_4_phosphate + D_Fructose_6_phosphate	R08575	1	talB + talA	b0008 + b2464														
+TXT_R01067	D_Erythrose_4_phosphate + D_Xylulose_5_phosphate <=> D_Glyceraldehyde_3_phosphate + D_Fructose_6_phosphate	R01067	1	tktB + tktA	b2465 + b2935														
+FBP_R00762	H2O + D_Fructose_1_6_bisphosphate <=> Orthophosphate + D_Fructose_6_phosphate	R00762	1	glpX + fbp	b3925 + b4232														
+CSN_R00351	Acetyl_CoA + H2O + Oxaloacetate <=> CoA + Citrate	R00351	1	gltA	b0720														
+ACN_R00351	Citrate <=> cis_Aconitate + H2O	R00351	1	acnB + ybhJ + acnA	b0118 + b0771 + b1276														
+ACN_R01900	cis_Aconitate + H2O <=> Isocitrate	R01900	1	acnB + ybhJ + acnA	b0118 + b0771 + b1276														
+ICD_R00709	NADplus + Isocitrate <=> NADH + _2_Oxoglutarate + CO2	R00709	1	icd	b1136														
+KGD_R08549	NADplus + _2_Oxoglutarate + CoA <=> NADH + CO2 + Succinyl_CoA	R08549	1	lpd + sucA + sucB	b0116 + b0726 + b0727														
+SCS_R00405	Orthophosphate + ADP + Succinyl_CoA <=> ATP + CoA + Succinate	R00405	1	sucC + sucD	b0728 + b0729														
+SDH_R02164	Ubiquinone + Succinate <=> Fumarate + Ubiquinol	R02164	1	sdhC + sdhD + sdhA + sdhB	b0721 + b0722 + b0723 + b0724														
+FUM_R01082	Fumarate + H2O <=> _S__Malate	R01082	1	fumC + fumA + fumB	b1611 + b1612 + b4122														
+MDH_R00342	_S__Malate + NADplus <=> NADH + Oxaloacetate	R00342	1	mdh	b3236														
+EDD_R02036	_6_Phospho_D_gluconate <=> _2_Keto_3_deoxy_6_phospho_gluconate + H2O	R02036	1	edd	b1851														
+EDA_R05605	_2_Keto_3_deoxy_6_phospho_gluconate <=> D_Glyceraldehyde_3_phosphate + Pyruvate	R05605	1	eda	b1850														
+MAEA_R00214	_S__Malate + NADplus <=> NADH + Pyruvate + CO2	R00214	1	maeA + maeB	b1479 + b2463														
+PCK_R00341	ATP + Oxaloacetate <=> ADP + Phosphoenolpyruvate + CO2	R00341	1	pck	b3403														
+PPC_R00345	H2O + Phosphoenolpyruvate + HCO3 <=> Orthophosphate + Oxaloacetate + H2O	R00345	1	ppc	b3956														
+ACEA_R00479	Isocitrate <=> Succinate + Glyoxylate	R00479	1	aceA	b4015														
+ACEB_R00472	Acetyl_CoA + H2O + Glyoxylate <=> _S__Malate + CoA	R00472	1	glcB + aceB	b2976 + b4014														
+PTA_R00230	Acetyl_CoA + Orthophosphate <=> CoA + Acetyl_phosphate	R00230	1	pta	b2297														
+ACKA_R00315	ADP + Acetyl_phosphate <=> ATP + Acetate	R00315	1	ackA	b2296														
+STH_R00112	NADplus + NADPH <=> NADH + NADPplus	R00112	1	pntB + pntA + sthA	b1601 + b1603 + b3962														
+!!SBtab TableName='Compound' TableType='Compound'																			
+!Compound	!Name	!Compound:Identifiers:kegg.compound	!External																
+_S__Malate	(S)-Malate	C00149	0																
+Acetyl_CoA	Acetyl-CoA	C00024	0																
+Fumarate	Fumarate	C00122	0																
+cis_Aconitate	cis-Aconitate	C00417	0																
+_6_Phospho_D_gluconate	6-Phospho-D-gluconate	C00345	0																
+Orthophosphate	Orthophosphate	C00009	1																
+Pyruvate	Pyruvate	C00022	0																
+NADPplus	NADP+	C00006	1																
+NADPH	NADPH	C00005	1																
+NADH	NADH	C00004	1																
+NADplus	NAD+	C00003	1																
+ATP	ATP	C00002	1																
+H2O	H2O	C00001	1																
+_2_Oxoglutarate	2-Oxoglutarate	C00026	0																
+Oxaloacetate	Oxaloacetate	C00036	0																
+Ubiquinone	Ubiquinone	C00399	1																
+D_Erythrose_4_phosphate	D-Erythrose 4-phosphate	C00279	0																
+Ubiquinol	Ubiquinol	C00390	1																
+ADP	ADP	C00008	1																
+Isocitrate	Isocitrate	C00311	0																
+D_Ribulose_5_phosphate	D-Ribulose 5-phosphate	C00199	0																
+D_Xylulose_5_phosphate	D-Xylulose 5-phosphate	C00231	0																
+D_Glucose_6_phosphate	D-Glucose 6-phosphate	C00092	1																
+_3_Phospho_D_glyceroyl_phosphate	3-Phospho-D-glyceroyl phosphate	C00236	0																
+CoA	CoA	C00010	0																
+CO2	CO2	C00011	1																
+D_Ribose_5_phosphate	D-Ribose 5-phosphate	C00117	0																
+Glycerone_phosphate	Glycerone phosphate	C00111	0																
+D_Glucose	D-Glucose	C00031	1																
+D_Fructose_1_6_bisphosphate	D-Fructose 1,6-bisphosphate	C00354	1																
+D_Glyceraldehyde_3_phosphate	D-Glyceraldehyde 3-phosphate	C00118	1																
+Phosphoenolpyruvate	Phosphoenolpyruvate	C00074	0																
+Citrate	Citrate	C00158	0																
+Succinyl_CoA	Succinyl-CoA	C00091	0																
+_3_Phospho_D_glycerate	3-Phospho-D-glycerate	C00197	0																
+D_Glucono_1_5_lactone_6_phosphate	D-Glucono-1,5-lactone 6-phosphate	C01236	0																
+D_Fructose_6_phosphate	D-Fructose 6-phosphate	C00085	1																
+_2_Phospho_D_glycerate	2-Phospho-D-glycerate	C00631	0																
+Succinate	Succinate	C00042	0																
+Sedoheptulose_7_phosphate	Sedoheptulose 7-phosphate	C05382	0																
+Acetate	Acetate	C00033	1																
+Acetyl_phosphate	Acetyl phosphate	C00227	0																
+Glyoxylate	Glyoxylate	C00048	0																
+_2_Keto_3_deoxy_6_phospho_gluconate	2-Keto-3-deoxy-6-phosphogluconate	C04442	0																
+HCO3	bicarbonate	C00288	1																
+!!SBtab TableName='RateConstant' TableType='Quantity'																			
+!QuantityType	!Value	!Compound	!Compound:Identifiers:kegg.compound	!Reaction	!Reaction:Identifiers:kegg.reaction	!Unit													
+equilibrium constant	51300000			PTS_RPTSsy	RPTSsy	-													
+equilibrium constant	0.366			PGI_R02740	R02740	-													
+equilibrium constant	1690			PFK_R04779	R04779	-													
+equilibrium constant	0.191			ALD_R01070	R01070	-													
+equilibrium constant	0.109			TIM_R01015	R01015	-													
+equilibrium constant	0.000369			GAP_R01061	R01061	-													
+equilibrium constant	1800			PGK_R01512	R01512	-													
+equilibrium constant	0.19			PGM_R01518	R01518	-													
+equilibrium constant	5.15			ENO_R00658	R00658	-													
+equilibrium constant	21000			PYK_R00200	R00200	-													
+equilibrium constant	1530000			PDH_R00209	R00209	-													
+equilibrium constant	12.7			ZWF_R00835	R00835	-													
+equilibrium constant	19700			GLH_R02035	R02035	-													
+equilibrium constant	12.2			PGD_R01528	R01528	-													
+equilibrium constant	2.25			RPI_R01056	R01056	-													
+equilibrium constant	3.87			RPE_R01529	R01529	-													
+equilibrium constant	4.69			TXT_R01641	R01641	-													
+equilibrium constant	1.32			TAL_R08575	R08575	-													
+equilibrium constant	58.4			TXT_R01067	R01067	-													
+equilibrium constant	46300			FBP_R00762	R00762	-													
+equilibrium constant	4990000			CSN_R00351	R00351	-													
+equilibrium constant	0.0355			ACN_R00351	R00351	-													
+equilibrium constant	1.32			ACN_R01900	R01900	-													
+equilibrium constant	97.8			ICD_R00709	R00709	-													
+equilibrium constant	87200			KGD_R08549	R08549	-													
+equilibrium constant	0.585			SCS_R00405	R00405	-													
+equilibrium constant	5760			SDH_R02164	R02164	-													
+equilibrium constant	3.99			FUM_R01082	R01082	-													
+equilibrium constant	0.0000206			MDH_R00342	R00342	-													
+equilibrium constant	36000000			EDD_R02036	R02036	-													
+equilibrium constant	0.0019			EDA_R05605	R05605	-													
+equilibrium constant	0.0052			MAEA_R00214	R00214	-													
+equilibrium constant	0.0154			PCK_R00341	R00341	-													
+equilibrium constant	5.41			PPC_R00345	R00345	-													
+equilibrium constant	770000			ACEA_R00479	R00479	-													
+equilibrium constant	540000			ACEB_R00472	R00472	-													
+equilibrium constant	0.019			PTA_R00230	R00230	-													
+equilibrium constant	222			ACKA_R00315	R00315	-													
+equilibrium constant	1.48			STH_R00112	R00112	-													
+catalytic rate constant geometric mean	337			PTS_RPTSsy	RPTSsy	1/s													
+catalytic rate constant geometric mean	352			PGI_R02740	R02740	1/s													
+catalytic rate constant geometric mean	342			PFK_R04779	R04779	1/s													
+catalytic rate constant geometric mean	350			ALD_R01070	R01070	1/s													
+catalytic rate constant geometric mean	1590			TIM_R01015	R01015	1/s													
+catalytic rate constant geometric mean	208			GAP_R01061	R01061	1/s													
+catalytic rate constant geometric mean	629			PGK_R01512	R01512	1/s													
+catalytic rate constant geometric mean	213			PGM_R01518	R01518	1/s													
+catalytic rate constant geometric mean	219			ENO_R00658	R00658	1/s													
+catalytic rate constant geometric mean	262			PYK_R00200	R00200	1/s													
+catalytic rate constant geometric mean	50			PDH_R00209	R00209	1/s													
+catalytic rate constant geometric mean	259			ZWF_R00835	R00835	1/s													
+catalytic rate constant geometric mean	676			GLH_R02035	R02035	1/s													
+catalytic rate constant geometric mean	245			PGD_R01528	R01528	1/s													
+catalytic rate constant geometric mean	700			RPI_R01056	R01056	1/s													
+catalytic rate constant geometric mean	417			RPE_R01529	R01529	1/s													
+catalytic rate constant geometric mean	162			TXT_R01641	R01641	1/s													
+catalytic rate constant geometric mean	154			TAL_R08575	R08575	1/s													
+catalytic rate constant geometric mean	214			TXT_R01067	R01067	1/s													
+catalytic rate constant geometric mean	160			FBP_R00762	R00762	1/s													
+catalytic rate constant geometric mean	152			CSN_R00351	R00351	1/s													
+catalytic rate constant geometric mean	165			ACN_R00351	R00351	1/s													
+catalytic rate constant geometric mean	162			ACN_R01900	R01900	1/s													
+catalytic rate constant geometric mean	162			ICD_R00709	R00709	1/s													
+catalytic rate constant geometric mean	350			KGD_R08549	R08549	1/s													
+catalytic rate constant geometric mean	147			SCS_R00405	R00405	1/s													
+catalytic rate constant geometric mean	199			SDH_R02164	R02164	1/s													
+catalytic rate constant geometric mean	290			FUM_R01082	R01082	1/s													
+catalytic rate constant geometric mean	200			MDH_R00342	R00342	1/s													
+catalytic rate constant geometric mean	200			EDD_R02036	R02036														
+catalytic rate constant geometric mean	200			EDA_R05605	R05605														
+catalytic rate constant geometric mean	200			MAEA_R00214	R00214														
+catalytic rate constant geometric mean	200			PCK_R00341	R00341														
+catalytic rate constant geometric mean	200			PPC_R00345	R00345														
+catalytic rate constant geometric mean	200			ACEA_R00479	R00479														
+catalytic rate constant geometric mean	200			ACEB_R00472	R00472														
+catalytic rate constant geometric mean	200			PTA_R00230	R00230														
+catalytic rate constant geometric mean	200			ACKA_R00315	R00315														
+catalytic rate constant geometric mean	200			STH_R00112	R00112														
+Michaelis constant	0.33	_S__Malate	C00149	FUM_R01082	R01082	mM													
+Michaelis constant	2.67	_S__Malate	C00149	MDH_R00342	R00342	mM													
+Michaelis constant	0.0691	Acetyl_CoA	C00024	PDH_R00209	R00209	mM													
+Michaelis constant	0.0179	Acetyl_CoA	C00024	CSN_R00351	R00351	mM													
+Michaelis constant	0.251	Fumarate	C00122	SDH_R02164	R02164	mM													
+Michaelis constant	0.239	Fumarate	C00122	FUM_R01082	R01082	mM													
+Michaelis constant	0.0161	cis_Aconitate	C00417	ACN_R00351	R00351	mM													
+Michaelis constant	0.0283	cis_Aconitate	C00417	ACN_R01900	R01900	mM													
+Michaelis constant	0.0525	_6_Phospho_D_gluconate	C00345	GLH_R02035	R02035	mM													
+Michaelis constant	0.0251	_6_Phospho_D_gluconate	C00345	PGD_R01528	R01528	mM													
+Michaelis constant	17	Orthophosphate	C00009	GAP_R01061	R01061	mM													
+Michaelis constant	1.08	Orthophosphate	C00009	FBP_R00762	R00762	mM													
+Michaelis constant	1.17	Orthophosphate	C00009	SCS_R00405	R00405	mM													
+Michaelis constant	8.3	Pyruvate	C00022	PTS_RPTSsy	RPTSsy	mM													
+Michaelis constant	0.544	Pyruvate	C00022	PYK_R00200	R00200	mM													
+Michaelis constant	0.00952	Pyruvate	C00022	PDH_R00209	R00209	mM													
+Michaelis constant	0.00329	NADPplus	C00006	ZWF_R00835	R00835	mM													
+Michaelis constant	0.0238	NADPplus	C00006	PGD_R01528	R01528	mM													
+Michaelis constant	0.0175	NADPH	C00005	ZWF_R00835	R00835	mM													
+Michaelis constant	0.000762	NADPH	C00005	PGD_R01528	R01528	mM													
+Michaelis constant	0.0227	NADH	C00004	GAP_R01061	R01061	mM													
+Michaelis constant	5.18	NADH	C00004	PDH_R00209	R00209	mM													
+Michaelis constant	1.12	NADH	C00004	ICD_R00709	R00709	mM													
+Michaelis constant	4.15	NADH	C00004	KGD_R08549	R08549	mM													
+Michaelis constant	0.00564	NADH	C00004	MDH_R00342	R00342	mM													
+Michaelis constant	0.0936	NADplus	C00003	GAP_R01061	R01061	mM													
+Michaelis constant	0.0374	NADplus	C00003	PDH_R00209	R00209	mM													
+Michaelis constant	0.0749	NADplus	C00003	ICD_R00709	R00709	mM													
+Michaelis constant	0.00241	NADplus	C00003	KGD_R08549	R08549	mM													
+Michaelis constant	0.178	NADplus	C00003	MDH_R00342	R00342	mM													
+Michaelis constant	0.11	ATP	C00002	PFK_R04779	R04779	mM													
+Michaelis constant	0.499	ATP	C00002	PGK_R01512	R01512	mM													
+Michaelis constant	5.05	ATP	C00002	PYK_R00200	R00200	mM													
+Michaelis constant	0.0288	ATP	C00002	SCS_R00405	R00405	mM													
+Michaelis constant	17.6	H2O	C00001	ENO_R00658	R00658	mM													
+Michaelis constant	0.00115	H2O	C00001	GLH_R02035	R02035	mM													
+Michaelis constant	0.0093	H2O	C00001	FBP_R00762	R00762	mM													
+Michaelis constant	0.000071	H2O	C00001	CSN_R00351	R00351	mM													
+Michaelis constant	0.0161	H2O	C00001	ACN_R00351	R00351	mM													
+Michaelis constant	0.473	H2O	C00001	ACN_R01900	R01900	mM													
+Michaelis constant	1.06	H2O	C00001	FUM_R01082	R01082	mM													
+Michaelis constant	1.12	_2_Oxoglutarate	C00026	ICD_R00709	R00709	mM													
+Michaelis constant	3.2	_2_Oxoglutarate	C00026	KGD_R08549	R08549	mM													
+Michaelis constant	0.0282	Oxaloacetate	C00036	CSN_R00351	R00351	mM													
+Michaelis constant	0.0254	Oxaloacetate	C00036	MDH_R00342	R00342	mM													
+Michaelis constant	0.0179	Ubiquinone	C00399	SDH_R02164	R02164	mM													
+Michaelis constant	0.226	D_Erythrose_4_phosphate	C00279	TAL_R08575	R08575	mM													
+Michaelis constant	0.15	D_Erythrose_4_phosphate	C00279	TXT_R01067	R01067	mM													
+Michaelis constant	26.9	Ubiquinol	C00390	SDH_R02164	R02164	mM													
+Michaelis constant	0.901	ADP	C00008	PFK_R04779	R04779	mM													
+Michaelis constant	0.114	ADP	C00008	PGK_R01512	R01512	mM													
+Michaelis constant	0.00925	ADP	C00008	PYK_R00200	R00200	mM													
+Michaelis constant	0.211	ADP	C00008	SCS_R00405	R00405	mM													
+Michaelis constant	0.185	Isocitrate	C00311	ACN_R01900	R01900	mM													
+Michaelis constant	2.03	Isocitrate	C00311	ICD_R00709	R00709	mM													
+Michaelis constant	0.138	D_Ribulose_5_phosphate	C00199	PGD_R01528	R01528	mM													
+Michaelis constant	3.19	D_Ribulose_5_phosphate	C00199	RPI_R01056	R01056	mM													
+Michaelis constant	0.787	D_Ribulose_5_phosphate	C00199	RPE_R01529	R01529	mM													
+Michaelis constant	0.314	D_Xylulose_5_phosphate	C00231	RPE_R01529	R01529	mM													
+Michaelis constant	0.524	D_Xylulose_5_phosphate	C00231	TXT_R01641	R01641	mM													
+Michaelis constant	0.412	D_Xylulose_5_phosphate	C00231	TXT_R01067	R01067	mM													
+Michaelis constant	8.3	D_Glucose_6_phosphate	C00092	PTS_RPTSsy	RPTSsy	mM													
+Michaelis constant	0.165	D_Glucose_6_phosphate	C00092	PGI_R02740	R02740	mM													
+Michaelis constant	0.0742	D_Glucose_6_phosphate	C00092	ZWF_R00835	R00835	mM													
+Michaelis constant	0.411	_3_Phospho_D_glyceroyl_phosphate	C00236	GAP_R01061	R01061	mM													
+Michaelis constant	0.00186	_3_Phospho_D_glyceroyl_phosphate	C00236	PGK_R01512	R01512	mM													
+Michaelis constant	0.0034	CoA	C00010	PDH_R00209	R00209	mM													
+Michaelis constant	141	CoA	C00010	CSN_R00351	R00351	mM													
+Michaelis constant	0.00241	CoA	C00010	KGD_R08549	R08549	mM													
+Michaelis constant	0.028	CoA	C00010	SCS_R00405	R00405	mM													
+Michaelis constant	5.18	CO2	C00011	PDH_R00209	R00209	mM													
+Michaelis constant	34	CO2	C00011	PGD_R01528	R01528	mM													
+Michaelis constant	1.12	CO2	C00011	ICD_R00709	R00709	mM													
+Michaelis constant	4.15	CO2	C00011	KGD_R08549	R08549	mM													
+Michaelis constant	1.78	D_Ribose_5_phosphate	C00117	RPI_R01056	R01056	mM													
+Michaelis constant	0.536	D_Ribose_5_phosphate	C00117	TXT_R01641	R01641	mM													
+Michaelis constant	0.159	Glycerone_phosphate	C00111	ALD_R01070	R01070	mM													
+Michaelis constant	1.36	Glycerone_phosphate	C00111	TIM_R01015	R01015	mM													
+Michaelis constant	0.0012	D_Glucose	C00031	PTS_RPTSsy	RPTSsy	mM													
+Michaelis constant	1.4	D_Fructose_1_6_bisphosphate	C00354	PFK_R04779	R04779	mM													
+Michaelis constant	0.107	D_Fructose_1_6_bisphosphate	C00354	ALD_R01070	R01070	mM													
+Michaelis constant	0.0128	D_Fructose_1_6_bisphosphate	C00354	FBP_R00762	R00762	mM													
+Michaelis constant	0.129	D_Glyceraldehyde_3_phosphate	C00118	ALD_R01070	R01070	mM													
+Michaelis constant	0.0941	D_Glyceraldehyde_3_phosphate	C00118	TIM_R01015	R01015	mM													
+Michaelis constant	26.4	D_Glyceraldehyde_3_phosphate	C00118	GAP_R01061	R01061	mM													
+Michaelis constant	4.1	D_Glyceraldehyde_3_phosphate	C00118	TXT_R01641	R01641	mM													
+Michaelis constant	0.0606	D_Glyceraldehyde_3_phosphate	C00118	TAL_R08575	R08575	mM													
+Michaelis constant	4.95	D_Glyceraldehyde_3_phosphate	C00118	TXT_R01067	R01067	mM													
+Michaelis constant	0.0012	Phosphoenolpyruvate	C00074	PTS_RPTSsy	RPTSsy	mM													
+Michaelis constant	0.573	Phosphoenolpyruvate	C00074	ENO_R00658	R00658	mM													
+Michaelis constant	0.0111	Phosphoenolpyruvate	C00074	PYK_R00200	R00200	mM													
+Michaelis constant	0.00656	Citrate	C00158	CSN_R00351	R00351	mM													
+Michaelis constant	0.00121	Citrate	C00158	ACN_R00351	R00351	mM													
+Michaelis constant	0.0873	Succinyl_CoA	C00091	KGD_R08549	R08549	mM													
+Michaelis constant	0.0361	Succinyl_CoA	C00091	SCS_R00405	R00405	mM													
+Michaelis constant	0.709	_3_Phospho_D_glycerate	C00197	PGK_R01512	R01512	mM													
+Michaelis constant	0.919	_3_Phospho_D_glycerate	C00197	PGM_R01518	R01518	mM													
+Michaelis constant	0.394	D_Glucono_1_5_lactone_6_phosphate	C01236	ZWF_R00835	R00835	mM													
+Michaelis constant	0.0184	D_Glucono_1_5_lactone_6_phosphate	C01236	GLH_R02035	R02035	mM													
+Michaelis constant	0.0607	D_Fructose_6_phosphate	C00085	PGI_R02740	R02740	mM													
+Michaelis constant	0.00712	D_Fructose_6_phosphate	C00085	PFK_R04779	R04779	mM													
+Michaelis constant	0.662	D_Fructose_6_phosphate	C00085	TAL_R08575	R08575	mM													
+Michaelis constant	6.99	D_Fructose_6_phosphate	C00085	TXT_R01067	R01067	mM													
+Michaelis constant	1.08	D_Fructose_6_phosphate	C00085	FBP_R00762	R00762	mM													
+Michaelis constant	0.0282	_2_Phospho_D_glycerate	C00631	PGM_R01518	R01518	mM													
+Michaelis constant	0.248	_2_Phospho_D_glycerate	C00631	ENO_R00658	R00658	mM													
+Michaelis constant	1.68	Succinate	C00042	SCS_R00405	R00405	mM													
+Michaelis constant	0.1	Succinate	C00042	SDH_R02164	R02164	mM													
+Michaelis constant	3.37	Sedoheptulose_7_phosphate	C05382	TXT_R01641	R01641	mM													
+Michaelis constant	0.198	Sedoheptulose_7_phosphate	C05382	TAL_R08575	R08575	mM													
+Michaelis constant	0.1	_6_Phospho_D_gluconate	C00345	EDD_R02036	R02036	mM													
+Michaelis constant	0.1	_2_Keto_3_deoxy_6_phospho_gluconate	C04442	EDD_R02036	R02036	mM													
+Michaelis constant	0.1	_2_Keto_3_deoxy_6_phospho_gluconate	C04442	EDA_R05605	R05605	mM													
+Michaelis constant	0.1	Pyruvate	C00022	EDA_R05605	R05605	mM													
+Michaelis constant	0.1	D_Glyceraldehyde_3_phosphate	C00118	EDA_R05605	R05605	mM													
+Michaelis constant	0.1	_S__Malate	C00149	MAEA_R00214	R00214	mM													
+Michaelis constant	0.1	NADplus	C00003	MAEA_R00214	R00214	mM													
+Michaelis constant	0.1	NADH	C00004	MAEA_R00214	R00214	mM													
+Michaelis constant	0.1	Pyruvate	C00022	MAEA_R00214	R00214	mM													
+Michaelis constant	0.1	CO2	C00011	MAEA_R00214	R00214	mM													
+Michaelis constant	0.1	ATP	C00002	PCK_R00341	R00341	mM													
+Michaelis constant	0.1	Oxaloacetate	C00036	PCK_R00341	R00341	mM													
+Michaelis constant	0.1	ADP	C00008	PCK_R00341	R00341	mM													
+Michaelis constant	0.1	Phosphoenolpyruvate	C00074	PCK_R00341	R00341	mM													
+Michaelis constant	0.1	CO2	C00011	PCK_R00341	R00341	mM													
+Michaelis constant	0.1	Phosphoenolpyruvate	C00074	PPC_R00345	R00345	mM													
+Michaelis constant	0.1	HCO3	C00288	PPC_R00345	R00345	mM													
+Michaelis constant	0.1	Orthophosphate	C00009	PPC_R00345	R00345	mM													
+Michaelis constant	0.1	Oxaloacetate	C00036	PPC_R00345	R00345	mM													
+Michaelis constant	0.1	Isocitrate	C00311	ACEA_R00479	R00479	mM													
+Michaelis constant	0.1	Succinate	C00042	ACEA_R00479	R00479	mM													
+Michaelis constant	0.1	Glyoxylate	C00048	ACEA_R00479	R00479	mM													
+Michaelis constant	0.1	Acetyl_CoA	C00024	ACEB_R00472	R00472	mM													
+Michaelis constant	0.1	Glyoxylate	C00048	ACEB_R00472	R00472	mM													
+Michaelis constant	0.1	_S__Malate	C00149	ACEB_R00472	R00472	mM													
+Michaelis constant	0.1	CoA	C00010	ACEB_R00472	R00472	mM													
+Michaelis constant	0.1	Acetyl_CoA	C00024	PTA_R00230	R00230	mM													
+Michaelis constant	0.1	Orthophosphate	C00009	PTA_R00230	R00230	mM													
+Michaelis constant	0.1	CoA	C00010	PTA_R00230	R00230	mM													
+Michaelis constant	0.1	Acetyl_phosphate	C00227	PTA_R00230	R00230	mM													
+Michaelis constant	0.1	ATP	C00002	ACKA_R00315	R00315	mM													
+Michaelis constant	0.1	Acetate	C00033	ACKA_R00315	R00315	mM													
+Michaelis constant	0.1	ADP	C00008	ACKA_R00315	R00315	mM													
+Michaelis constant	0.1	Acetyl_phosphate	C00227	ACKA_R00315	R00315	mM													
+Michaelis constant	0.1	NADH	C00003	STH_R00112	R00112	mM													
+Michaelis constant	0.1	NADPplus	C00006	STH_R00112	R00112	mM													
+Michaelis constant	0.1	NADplus	C00004	STH_R00112	R00112	mM													
+Michaelis constant	0.1	NADPH	C00005	STH_R00112	R00112	mM													
+substrate catalytic rate constant	350			PTS_RPTSsy	RPTSsy	1/s													
+substrate catalytic rate constant	350			PGI_R02740	R02740	1/s													
+substrate catalytic rate constant	350			PFK_R04779	R04779	1/s													
+substrate catalytic rate constant	350			ALD_R01070	R01070	1/s													
+substrate catalytic rate constant	2000			TIM_R01015	R01015	1/s													
+substrate catalytic rate constant	268			GAP_R01061	R01061	1/s													
+substrate catalytic rate constant	654			PGK_R01512	R01512	1/s													
+substrate catalytic rate constant	530			PGM_R01518	R01518	1/s													
+substrate catalytic rate constant	78			ENO_R00658	R00658	1/s													
+substrate catalytic rate constant	232			PYK_R00200	R00200	1/s													
+substrate catalytic rate constant	50			PDH_R00209	R00209	1/s													
+substrate catalytic rate constant	174			ZWF_R00835	R00835	1/s													
+substrate catalytic rate constant	1900			GLH_R02035	R02035	1/s													
+substrate catalytic rate constant	350			PGD_R01528	R01528	1/s													
+substrate catalytic rate constant	1410			RPI_R01056	R01056	1/s													
+substrate catalytic rate constant	1300			RPE_R01529	R01529	1/s													
+substrate catalytic rate constant	50			TXT_R01641	R01641	1/s													
+substrate catalytic rate constant	50			TAL_R08575	R08575	1/s													
+substrate catalytic rate constant	69			TXT_R01067	R01067	1/s													
+substrate catalytic rate constant	350			FBP_R00762	R00762	1/s													
+substrate catalytic rate constant	67.1			CSN_R00351	R00351	1/s													
+substrate catalytic rate constant	67.1			ACN_R00351	R00351	1/s													
+substrate catalytic rate constant	50			ACN_R01900	R01900	1/s													
+substrate catalytic rate constant	527			ICD_R00709	R00709	1/s													
+substrate catalytic rate constant	363			KGD_R08549	R08549	1/s													
+substrate catalytic rate constant	288			SCS_R00405	R00405	1/s													
+substrate catalytic rate constant	245			SDH_R02164	R02164	1/s													
+substrate catalytic rate constant	509			FUM_R01082	R01082	1/s													
+substrate catalytic rate constant	52.2			MDH_R00342	R00342	1/s													
+substrate catalytic rate constant	200			EDD_R02036	R02036														
+substrate catalytic rate constant	200			EDA_R05605	R05605														
+substrate catalytic rate constant	200			MAEA_R00214	R00214														
+substrate catalytic rate constant	200			PCK_R00341	R00341														
+substrate catalytic rate constant	200			PPC_R00345	R00345														
+substrate catalytic rate constant	200			ACEA_R00479	R00479														
+substrate catalytic rate constant	200			ACEB_R00472	R00472														
+substrate catalytic rate constant	200			PTA_R00230	R00230														
+substrate catalytic rate constant	200			ACKA_R00315	R00315														
+substrate catalytic rate constant	200			STH_R00112	R00112														
+product catalytic rate constant	324			PTS_RPTSsy	RPTSsy	1/s													
+product catalytic rate constant	353			PGI_R02740	R02740	1/s													
+product catalytic rate constant	334			PFK_R04779	R04779	1/s													
+product catalytic rate constant	350			ALD_R01070	R01070	1/s													
+product catalytic rate constant	1270			TIM_R01015	R01015	1/s													
+product catalytic rate constant	161			GAP_R01061	R01061	1/s													
+product catalytic rate constant	604			PGK_R01512	R01512	1/s													
+product catalytic rate constant	85.5			PGM_R01518	R01518	1/s													
+product catalytic rate constant	616			ENO_R00658	R00658	1/s													
+product catalytic rate constant	296			PYK_R00200	R00200	1/s													
+product catalytic rate constant	50			PDH_R00209	R00209	1/s													
+product catalytic rate constant	385			ZWF_R00835	R00835	1/s													
+product catalytic rate constant	241			GLH_R02035	R02035	1/s													
+product catalytic rate constant	172			PGD_R01528	R01528	1/s													
+product catalytic rate constant	349			RPI_R01056	R01056	1/s													
+product catalytic rate constant	134			RPE_R01529	R01529	1/s													
+product catalytic rate constant	525			TXT_R01641	R01641	1/s													
+product catalytic rate constant	472			TAL_R08575	R08575	1/s													
+product catalytic rate constant	661			TXT_R01067	R01067	1/s													
+product catalytic rate constant	73.2			FBP_R00762	R00762	1/s													
+product catalytic rate constant	346			CSN_R00351	R00351	1/s													
+product catalytic rate constant	406			ACN_R00351	R00351	1/s													
+product catalytic rate constant	523			ACN_R01900	R01900	1/s													
+product catalytic rate constant	50			ICD_R00709	R00709	1/s													
+product catalytic rate constant	337			KGD_R08549	R08549	1/s													
+product catalytic rate constant	75.2			SCS_R00405	R00405	1/s													
+product catalytic rate constant	161			SDH_R02164	R02164	1/s													
+product catalytic rate constant	166			FUM_R01082	R01082	1/s													
+product catalytic rate constant	767			MDH_R00342	R00342	1/s													
+product catalytic rate constant	200			EDD_R02036	R02036														
+product catalytic rate constant	200			EDA_R05605	R05605														
+product catalytic rate constant	200			MAEA_R00214	R00214														
+product catalytic rate constant	200			PCK_R00341	R00341														
+product catalytic rate constant	200			PPC_R00345	R00345														
+product catalytic rate constant	200			ACEA_R00479	R00479														
+product catalytic rate constant	200			ACEB_R00472	R00472														
+product catalytic rate constant	200			PTA_R00230	R00230														
+product catalytic rate constant	200			ACKA_R00315	R00315														
+product catalytic rate constant	200			STH_R00112	R00112														
+!!SBtab TableName='ConcentrationConstraint' TableType='Quantity' Unit='mM'																			
+!QuantityType	!Compound	!Compound:Identifiers:kegg.compound	!Concentration:Min	!Concentration:Max															
+concentration	_S__Malate	C00149	0.001	10															
+concentration	Acetyl_CoA	C00024	0.001	10															
+concentration	Fumarate	C00122	0.001	10															
+concentration	cis_Aconitate	C00417	0.001	10															
+concentration	_6_Phospho_D_gluconate	C00345	0.001	10															
+concentration	Orthophosphate	C00009	10	10															
+concentration	Pyruvate	C00022	0.001	10															
+concentration	NADPplus	C00006	0.1	0.1															
+concentration	NADPH	C00005	1	1															
+concentration	NADH	C00004	0.1	0.1															
+concentration	NADplus	C00003	1	1															
+concentration	ATP	C00002	5	5															
+concentration	H2O	C00001	1	1															
+concentration	_2_Oxoglutarate	C00026	0.001	10															
+concentration	Oxaloacetate	C00036	0.001	10															
+concentration	Ubiquinone	C00399	0.1	0.1															
+concentration	D_Erythrose_4_phosphate	C00279	0.001	10															
+concentration	Ubiquinol	C00390	0.1	0.1															
+concentration	ADP	C00008	0.5	0.5															
+concentration	Isocitrate	C00311	0.001	10															
+concentration	D_Ribulose_5_phosphate	C00199	0.001	10															
+concentration	D_Xylulose_5_phosphate	C00231	0.001	10															
+concentration	D_Glucose_6_phosphate	C00092	0.001	10															
+concentration	_3_Phospho_D_glyceroyl_phosphate	C00236	0.001	10															
+concentration	CoA	C00010	1	1															
+concentration	CO2	C00011	0.01	0.01															
+concentration	D_Ribose_5_phosphate	C00117	0.001	10															
+concentration	Glycerone_phosphate	C00111	0.001	10															
+concentration	D_Glucose	C00031	0.001	10															
+concentration	D_Fructose_1_6_bisphosphate	C00354	0.001	10															
+concentration	D_Glyceraldehyde_3_phosphate	C00118	0.001	10															
+concentration	Phosphoenolpyruvate	C00074	0.001	10															
+concentration	Citrate	C00158	0.001	10															
+concentration	Succinyl_CoA	C00091	0.001	10															
+concentration	_3_Phospho_D_glycerate	C00197	0.001	10															
+concentration	D_Glucono_1_5_lactone_6_phosphate	C01236	0.001	10															
+concentration	D_Fructose_6_phosphate	C00085	0.001	10															
+concentration	_2_Phospho_D_glycerate	C00631	0.001	10															
+concentration	Succinate	C00042	0.001	10															
+concentration	Sedoheptulose_7_phosphate	C05382	0.001	10															
+concentration	Acetate	C00033	0.001	10															
+concentration	Acetyl_phosphate	C00227	0.001	10															
+concentration	Glyoxylate	C00048	0.001	10															
+concentration	_2_Keto_3_deoxy_6_phospho_gluconate	C04442	0.001	10															
+concentration	HCO3	C00288	0.001	10															
+!!SBtab TableName='Flux' TableType='Quantity' Unit='mM/s'																			
+!QuantityType	!Reaction	!Reaction:Identifiers:kegg.reaction	!Flux	glc,mu=0.95	glc,mu=0.93	glc,mu=0.90	glc,mu=0.75	glc,mu=0.64	glc,mu=0.53	glc,mu=0.45	glc,mu=0.42	glu,mu=0.93	glu,mu=0.90	glu,mu=0.89	glu,mu=0.60	glu,mu=0.50	glu,mu=0.44	glu,mu=0.32	glu,mu=0.23
+flux	PTS_RPTSsy	RPTSsy	13.7	13.7	12.9	11.7	9.5	7.1	6	4.9	4.4	12.9	11.8	12.5	9	7.7	7.3	6.6	5.5
+flux	PGI_R02740	R02740	10.4	10.4	10.3	9	7.5	5.2	4.5	3.4	2.9	9.5	8.7	10.4	7.9	6.8	6.2	5.8	4.7
+flux	PFK_R04779	R04779	11.6	11.6	11.4	10	8.3	6	5.1	4.1	3.5	10.5	9.7	11.1	8.1	7.1	6.4	6.1	5
+flux	ALD_R01070	R01070	11.6	11.6	11.4	10	8.3	6	5.1	4.1	3.5	10.5	9.7	11.1	8.1	7.1	6.4	6.1	5
+flux	TIM_R01015	R01015	11.6	11.6	11.4	10	8.3	6	5.1	4.1	3.5	10.5	9.7	11.1	8.1	7.1	6.4	6.1	5
+flux	GAP_R01061	R01061	24.2	24.2	23.2	20.6	16.9	12.3	10.4	8.4	7.4	22.3	20.4	22.5	16.4	14.2	13.2	12.3	10.2
+flux	PGK_R01512	R01512	24.2	24.2	23.2	20.6	16.9	12.3	10.4	8.4	7.4	22.3	20.4	22.5	16.4	14.2	13.2	12.3	10.2
+flux	PGM_R01518	R01518	22.7	22.7	21.8	19.3	15.7	11.3	9.6	7.7	6.8	20.9	19.1	21.2	15.5	13.4	12.5	11.8	9.9
+flux	ENO_R00658	R00658	22.7	22.7	21.8	19.3	15.7	11.3	9.6	7.7	6.8	20.9	19.1	21.2	15.5	13.4	12.5	11.8	9.9
+flux	PYK_R00200	R00200	5.5	5.5	5.3	4.2	3.3	1.6	1.4	0.9	0.5	4.4	3.8	5.2	3.6	2.9	2.3	2.4	1.8
+flux	PDH_R00209	R00209	16.6	16.6	15.6	13.4	10.4	6.7	5.6	4.3	3.7	15.2	13.5	15	10.7	9	8.5	7.9	6.7
+flux	ZWF_R00835	R00835	3.2	3.2	2.6	2.7	2	1.8	1.5	1.5	1.5	3.3	3	2.1	1	0.9	1.1	0.7	0.8
+flux	GLH_R02035	R02035	3.2	3.2	2.6	2.7	2	1.8	1.5	1.5	1.5	3.3	3	2.1	1	0.9	1.1	0.7	0.8
+flux	PGD_R01528	R01528	2.7	2.7	2.4	2.3	1.9	1.6	1.3	1.4	1.2	2.4	2.2	1.9	0.8	0.7	0.6	0.6	0.6
+flux	RPI_R01056	R01056	1.4	1.4	1.3	1.2	1	0.9	0.7	0.7	0.6	1.3	1.2	1.1	0.6	0.5	0.4	0.4	0.3
+flux	RPE_R01529	R01529	1.3	1.3	1.1	1.1	0.9	0.8	0.6	0.7	0.6	1.1	1	0.8	0.3	0.2	0.2	0.3	0.3
+flux	TXT_R01641	R01641	0.8	0.8	0.7	0.7	0.6	0.5	0.4	0.4	0.4	0.8	0.7	0.6	0.3	0.2	0.2	0.2	0.2
+flux	TAL_R08575	R08575	0.8	0.8	0.7	0.7	0.6	0.5	0.4	0.4	0.4	0.8	0.7	0.6	0.3	0.2	0.2	0.2	0.2
+flux	TXT_R01067	R01067	0.5	0.5	0.4	0.4	0.3	0.3	0.2	0.2	0.2	0.4	0.3	0.2	0	0	0	0.1	0.1
+flux	FBP_R00762	R00762	0.5	0.5	0.2	0.4	0.1	0.2	0.1	0.1	0.3	0.9	0.8	0.2	0.2	0.1	0.4	0.1	0.2
+flux	CSN_R00351	R00351	3.9	3.9	4.3	4	7	5.1	4.4	3.2	2.7	4.8	4.1	4.5	4.1	3.9	3.8	4.1	3.7
+flux	ACN_R00351	R00351	3.9	3.9	4.3	4	7	5.1	4.4	3.2	2.7	4.8	4.1	4.5	4.1	3.9	3.8	4.1	3.7
+flux	ACN_R01900	R01900	3.9	3.9	4.3	4	7	5.1	4.4	3.2	2.7	4.8	4.1	4.5	4.1	3.9	3.8	4.1	3.7
+flux	ICD_R00709	R00709	3.9	3.9	4.3	4	7	5.1	4.4	3.2	2.7	4.8	4.1	4.5	4.1	3.9	3.8	4.1	3.7
+flux	KGD_R08549	R08549	2.6	2.6	3	2.7	6	4.2	3.5	2.5	2	3.5	2.8	3.3	2.8	2.4	2.1	2.2	1.7
+flux	SCS_R00405	R00405	2.6	2.6	3	2.7	6	4.2	3.5	2.5	2	3.5	2.8	3.3	2.8	2.4	2.1	2.2	1.7
+flux	SDH_R02164	R02164	2.6	2.6	3	2.7	6	4.2	3.5	2.5	2	3.5	2.8	3.3	2.8	2.4	2.1	2.2	1.7
+flux	FUM_R01082	R01082	2.6	2.6	3	2.7	6	4.2	3.5	2.5	2	3.5	2.8	3.3	2.8	2.4	2.1	2.2	1.7
+flux	MDH_R00342	R00342	2.6	2.6	3	2.7	6	4.2	3.5	2.5	2	3.5	2.8	3.3	2.8	2.4	2.1	2.2	1.7
+flux	EDD_R02036	R02036	0	0.5	0.2	0.4	0.1	0.2	0.1	0.1	0.3	0.9	0.8	0.2	0.2	0.1	0.4	0.1	0.2
+flux	EDA_R05605	R05605	0	0.5	0.2	0.4	0.1	0.2	0.1	0.1	0.3	0.9	0.8	0.2	0.2	0.1	0.4	0.1	0.2
+flux	MAEA_R00214	R00214	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+flux	PCK_R00341	R00341	0.8	0.8	1	0.8	2.6	1.2	0.9	0.8	0.8	2	1.7	0.9	1.4	1.6	1	1.3	0.5
+flux	PPC_R00345	R00345	0	3.7	3.8	3.5	4.9	3.2	2.6	2.3	2.2	4.8	4.4	3.6	3.7	3.9	3.5	3.8	2.8
+flux	ACEA_R00479	R00479	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+flux	ACEB_R00472	R00472	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+flux	PTA_R00230	R00230	10.5	10.5	9.1	7.3	1.6	0	0	0	0	8.2	7.3	8.3	5.2	3.9	3.6	3.1	2.5
+flux	ACKA_R00315	R00315	10.5	10.5	9.1	7.3	1.6	0	0	0	0	8.2	7.3	8.3	5.2	3.9	3.6	3.1	2.5
+flux	STH_R00112	R00112	5.2	5.2	5.4	5.4	1.3	2	1.8	1.6	1.8	4.2	4.9	5.7	4.1	2.9	2	0.1	0
+!!SBtab TableName='GibbsEnergyOfFormation' TableType='Quantity' Unit='kJ/mol' StandardConcentration='1mM'																			
+!QuantityType	!Compound	!Compound:Identifiers:kegg.compound	!G0																
+standard Gibbs energy of formation	_S__Malate	C00149	-762																
+standard Gibbs energy of formation	Acetyl_CoA	C00024	-792																
+standard Gibbs energy of formation	Fumarate	C00122	-524																
+standard Gibbs energy of formation	cis_Aconitate	C00417	-838																
+standard Gibbs energy of formation	_6_Phospho_D_gluconate	C00345	-1110																
+standard Gibbs energy of formation	Orthophosphate	C00009	-462																
+standard Gibbs energy of formation	Pyruvate	C00022	-424																
+standard Gibbs energy of formation	NADPplus	C00006	-865																
+standard Gibbs energy of formation	NADPH	C00005	-823																
+standard Gibbs energy of formation	NADH	C00004	-774																
+standard Gibbs energy of formation	NADplus	C00003	-814																
+standard Gibbs energy of formation	ATP	C00002	-1040																
+standard Gibbs energy of formation	H2O	C00001	-234																
+standard Gibbs energy of formation	_2_Oxoglutarate	C00026	-658																
+standard Gibbs energy of formation	Oxaloacetate	C00036	-775																
+standard Gibbs energy of formation	Ubiquinone	C00399	-896																
+standard Gibbs energy of formation	D_Erythrose_4_phosphate	C00279	-593																
+standard Gibbs energy of formation	Ubiquinol	C00390	-931																
+standard Gibbs energy of formation	ADP	C00008	-855																
+standard Gibbs energy of formation	Isocitrate	C00311	-1070																
+standard Gibbs energy of formation	D_Ribulose_5_phosphate	C00199	-693																
+standard Gibbs energy of formation	D_Xylulose_5_phosphate	C00231	-696																
+standard Gibbs energy of formation	D_Glucose_6_phosphate	C00092	-805																
+standard Gibbs energy of formation	_3_Phospho_D_glyceroyl_phosphate	C00236	-979																
+standard Gibbs energy of formation	CoA	C00010	-759																
+standard Gibbs energy of formation	CO2	C00011	-468																
+standard Gibbs energy of formation	D_Ribose_5_phosphate	C00117	-695																
+standard Gibbs energy of formation	Glycerone_phosphate	C00111	-502																
+standard Gibbs energy of formation	D_Glucose	C00031	-604																
+standard Gibbs energy of formation	D_Fructose_1_6_bisphosphate	C00354	-1000																
+standard Gibbs energy of formation	D_Glyceraldehyde_3_phosphate	C00118	-497																
+standard Gibbs energy of formation	Phosphoenolpyruvate	C00074	-582																
+standard Gibbs energy of formation	Citrate	C00158	-1080																
+standard Gibbs energy of formation	Succinyl_CoA	C00091	-1020																
+standard Gibbs energy of formation	_3_Phospho_D_glycerate	C00197	-816																
+standard Gibbs energy of formation	D_Glucono_1_5_lactone_6_phosphate	C01236	-853																
+standard Gibbs energy of formation	D_Fructose_6_phosphate	C00085	-803																
+standard Gibbs energy of formation	_2_Phospho_D_glycerate	C00631	-812																
+standard Gibbs energy of formation	Succinate	C00042	-537																
+standard Gibbs energy of formation	Sedoheptulose_7_phosphate	C05382	-898																
+standard Gibbs energy of formation	Acetate	C00033	-247																
+standard Gibbs energy of formation	Acetyl_phosphate	C00227	-1106																
+standard Gibbs energy of formation	Glyoxylate	C00048	-431																
+standard Gibbs energy of formation	_2_Keto_3_deoxy_6_phospho_gluconate	C04442	-1451																
+standard Gibbs energy of formation	HCO3	C00288	-548																
+!!SBtab TableName='GibbsEnergyOfReaction' TableType='Quantity' Unit='kJ/mol' StandardConcentration='1mM'																			
+!QuantityType	!Reaction	!Reaction:Identifiers:kegg.reaction	!dG0	!OriginaldG0	!SumFormula														
+standard Gibbs energy of reaction	PTS_RPTSsy	RPTSsy	-44.3	-44.3	D_Glucose + Phosphoenolpyruvate <=> Pyruvate + D_Glucose_6_phosphate														
+standard Gibbs energy of reaction	PGI_R02740	R02740	2.51	2.51	D_Glucose_6_phosphate <=> D_Fructose_6_phosphate														
+standard Gibbs energy of reaction	PFK_R04779	R04779	-18.5	-18.5	ATP + D_Fructose_6_phosphate <=> ADP + D_Fructose_1_6_bisphosphate														
+standard Gibbs energy of reaction	ALD_R01070	R01070	4.13	4.13	D_Fructose_1_6_bisphosphate <=> Glycerone_phosphate + D_Glyceraldehyde_3_phosphate														
+standard Gibbs energy of reaction	TIM_R01015	R01015	5.53	5.53	Glycerone_phosphate <=> D_Glyceraldehyde_3_phosphate														
+standard Gibbs energy of reaction	GAP_R01061	R01061	19.7	19.7	Orthophosphate + NADplus + D_Glyceraldehyde_3_phosphate <=> NADH + _3_Phospho_D_glyceroyl_phosphate														
+standard Gibbs energy of reaction	PGK_R01512	R01512	-18.7	-18.7	ADP + _3_Phospho_D_glyceroyl_phosphate <=> ATP + _3_Phospho_D_glycerate														
+standard Gibbs energy of reaction	PGM_R01518	R01518	4.14	4.14	_3_Phospho_D_glycerate <=> _2_Phospho_D_glycerate														
+standard Gibbs energy of reaction	ENO_R00658	R00658	-4.09	-4.09	_2_Phospho_D_glycerate <=> H2O + Phosphoenolpyruvate														
+standard Gibbs energy of reaction	PYK_R00200	R00200	-24.8	-24.8	ADP + Phosphoenolpyruvate <=> Pyruvate + ATP														
+standard Gibbs energy of reaction	PDH_R00209	R00209	-35.5	-35.5	Pyruvate + NADplus + CoA <=> Acetyl_CoA + NADH + CO2														
+standard Gibbs energy of reaction	ZWF_R00835	R00835	-6.35	-6.34	NADPplus + D_Glucose_6_phosphate <=> NADPH + D_Glucono_1_5_lactone_6_phosphate														
+standard Gibbs energy of reaction	GLH_R02035	R02035	-24.7	-24.6	H2O + D_Glucono_1_5_lactone_6_phosphate <=> _6_Phospho_D_gluconate														
+standard Gibbs energy of reaction	PGD_R01528	R01528	-6.23	-6.23	_6_Phospho_D_gluconate + NADPplus <=> NADPH + D_Ribulose_5_phosphate + CO2														
+standard Gibbs energy of reaction	RPI_R01056	R01056	-2.03	-2.03	D_Ribulose_5_phosphate <=> D_Ribose_5_phosphate														
+standard Gibbs energy of reaction	RPE_R01529	R01529	-3.38	-3.38	D_Ribulose_5_phosphate <=> D_Xylulose_5_phosphate														
+standard Gibbs energy of reaction	TXT_R01641	R01641	-3.86	-3.85	D_Xylulose_5_phosphate + D_Ribose_5_phosphate <=> D_Glyceraldehyde_3_phosphate + Sedoheptulose_7_phosphate														
+standard Gibbs energy of reaction	TAL_R08575	R08575	-0.688	-0.687	D_Glyceraldehyde_3_phosphate + Sedoheptulose_7_phosphate <=> D_Erythrose_4_phosphate + D_Fructose_6_phosphate														
+standard Gibbs energy of reaction	TXT_R01067	R01067	-10.1	-10.1	D_Erythrose_4_phosphate + D_Xylulose_5_phosphate <=> D_Glyceraldehyde_3_phosphate + D_Fructose_6_phosphate														
+standard Gibbs energy of reaction	FBP_R00762	R00762	-26.8	-26.8	H2O + D_Fructose_1_6_bisphosphate <=> Orthophosphate + D_Fructose_6_phosphate														
+standard Gibbs energy of reaction	CSN_R00351	R00351	-38.5	-38.4	Acetyl_CoA + H2O + Oxaloacetate <=> CoA + Citrate														
+standard Gibbs energy of reaction	ACN_R00351	R00351	8.33	8.32	Citrate <=> cis_Aconitate + H2O														
+standard Gibbs energy of reaction	ACN_R01900	R01900	-0.687	-0.687	cis_Aconitate + H2O <=> Isocitrate														
+standard Gibbs energy of reaction	ICD_R00709	R00709	-11.4	-11.4	NADplus + Isocitrate <=> NADH + _2_Oxoglutarate + CO2														
+standard Gibbs energy of reaction	KGD_R08549	R08549	-28.4	-28.3	NADplus + _2_Oxoglutarate + CoA <=> NADH + CO2 + Succinyl_CoA														
+standard Gibbs energy of reaction	SCS_R00405	R00405	1.34	1.34	Orthophosphate + ADP + Succinyl_CoA <=> ATP + CoA + Succinate														
+standard Gibbs energy of reaction	SDH_R02164	R02164	-21.6	-21.6	Ubiquinone + Succinate <=> Fumarate + Ubiquinol														
+standard Gibbs energy of reaction	FUM_R01082	R01082	-3.45	-3.45	Fumarate + H2O <=> _S__Malate														
+standard Gibbs energy of reaction	MDH_R00342	R00342	26.9	26.9	_S__Malate + NADplus <=> NADH + Oxaloacetate														
+standard Gibbs energy of reaction	EDD_R02036	R02036	-43.1	-43.1	_6_Phospho_D_gluconate <=> _2_Keto_3_deoxy_6_phospho_gluconate + H2O														
+standard Gibbs energy of reaction	EDA_R05605	R05605	15.5	15.5	_2_Keto_3_deoxy_6_phospho_gluconate <=> D_Glyceraldehyde_3_phosphate + Pyruvate														
+standard Gibbs energy of reaction	MAEA_R00214	R00214	13	13	_S__Malate + NADplus <=> NADH + Pyruvate + CO2														
+standard Gibbs energy of reaction	PCK_R00341	R00341	10.3	10.3	ATP + Oxaloacetate <=> ADP + Phosphoenolpyruvate + CO2														
+standard Gibbs energy of reaction	PPC_R00345	R00345	-4.2	-4.2	H2O + Phosphoenolpyruvate + HCO3 <=> Orthophosphate + Oxaloacetate + H2O														
+standard Gibbs energy of reaction	ACEA_R00479	R00479	-33.6	-33.6	Isocitrate <=> Succinate + Glyoxylate														
+standard Gibbs energy of reaction	ACEB_R00472	R00472	-32.7	-32.7	Acetyl_CoA + H2O + Glyoxylate <=> _S__Malate + CoA														
+standard Gibbs energy of reaction	PTA_R00230	R00230	9.8	9.8	Acetyl_CoA + Orthophosphate <=> CoA + Acetyl_phosphate														
+standard Gibbs energy of reaction	ACKA_R00315	R00315	-13.4	-13.4	ADP + Acetyl_phosphate <=> ATP + Acetate														
+standard Gibbs energy of reaction	STH_R00112	R00112	-1	-1	NADplus + NADPH <=> NADH + NADPplus														
+!!SBtab TableName='Concentration' TableType='Quantity' Unit='mM'																			
+!QuantityType	!Compound	!Compound:Identifiers:kegg.compound	!Concentration																
+concentration	_S__Malate	C00149	1.68																
+concentration	Acetyl_CoA	C00024	0.606																
+concentration	Fumarate	C00122	0.115																
+concentration	cis_Aconitate	C00417	0.0161																
+concentration	_6_Phospho_D_gluconate	C00345	3.81																
+concentration	Orthophosphate	C00009	NaN																
+concentration	Pyruvate	C00022	0.39																
+concentration	NADPplus	C00006	0.00208																
+concentration	NADPH	C00005	0.121																
+concentration	NADH	C00004	0.0832																
+concentration	NADplus	C00003	2.55																
+concentration	ATP	C00002	9.63																
+concentration	H2O	C00001	NaN																
+concentration	_2_Oxoglutarate	C00026	0.443																
+concentration	Oxaloacetate	C00036	NaN																
+concentration	Ubiquinone	C00399	NaN																
+concentration	D_Erythrose_4_phosphate	C00279	NaN																
+concentration	Ubiquinol	C00390	NaN																
+concentration	ADP	C00008	0.555																
+concentration	Isocitrate	C00311	0.02																
+concentration	D_Ribulose_5_phosphate	C00199	NaN																
+concentration	D_Xylulose_5_phosphate	C00231	NaN																
+concentration	D_Glucose_6_phosphate	C00092	8.75																
+concentration	_3_Phospho_D_glyceroyl_phosphate	C00236	NaN																
+concentration	CoA	C00010	1.37																
+concentration	CO2	C00011	NaN																
+concentration	D_Ribose_5_phosphate	C00117	1.32																
+concentration	Glycerone_phosphate	C00111	0.374																
+concentration	D_Glucose	C00031	17.4																
+concentration	D_Fructose_1_6_bisphosphate	C00354	15.2																
+concentration	D_Glyceraldehyde_3_phosphate	C00118	NaN																
+concentration	Phosphoenolpyruvate	C00074	0.184																
+concentration	Citrate	C00158	1.96																
+concentration	Succinyl_CoA	C00091	0.233																
+concentration	_3_Phospho_D_glycerate	C00197	1.54																
+concentration	D_Glucono_1_5_lactone_6_phosphate	C01236	NaN																
+concentration	D_Fructose_6_phosphate	C00085	NaN																
+concentration	_2_Phospho_D_glycerate	C00631	NaN																
+concentration	Succinate	C00042	0.569																
+concentration	Sedoheptulose_7_phosphate	C05382	NaN																
+concentration	Acetate	C00033	NaN																
+concentration	Acetyl_phosphate	C00227	NaN																
+concentration	Glyoxylate	C00048	NaN																
+concentration	_2_Keto_3_deoxy_6_phospho_gluconate	C04442	NaN																
+concentration	HCO3	C00288	NaN																
+!!SBtab TableName='EnzymeConcentration' TableType='Quantity' Unit='mM'																			
+!QuantityType	!Reaction	!Reaction:Identifiers:kegg.reaction	!EnzymeConcentration	NQ381 (400)	NQ381 (500)	NQ381 (800)	NCM3722												
+concentration of enzyme	PTS_RPTSsy	RPTSsy	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	PGI_R02740	R02740	0.000867	0.000867	0.000886	0.000985	0.00106												
+concentration of enzyme	PFK_R04779	R04779	0.00061	0.00061	0.000619	0.000622	0.000627												
+concentration of enzyme	ALD_R01070	R01070	0.00316	0.00316	0.00348	0.00351	0.0039												
+concentration of enzyme	TIM_R01015	R01015	0.0012	0.0012	0.00155	0.00134	0.00183												
+concentration of enzyme	GAP_R01061	R01061	0.0119	0.0119	0.0129	0.0133	0.0147												
+concentration of enzyme	PGK_R01512	R01512	0.003	0.003	0.00308	0.00318	0.00361												
+concentration of enzyme	PGM_R01518	R01518	0.00234	0.00234	0.00235	0.00249	0.00271												
+concentration of enzyme	ENO_R00658	R00658	0.00634	0.00634	0.00702	0.00747	0.00832												
+concentration of enzyme	PYK_R00200	R00200	0.00327	0.00327	0.00285	0.00245	0.00276												
+concentration of enzyme	PDH_R00209	R00209	0.00832	0.00832	0.00868	0.00863	0.00919												
+concentration of enzyme	ZWF_R00835	R00835	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	GLH_R02035	R02035	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	PGD_R01528	R01528	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	RPI_R01056	R01056	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	RPE_R01529	R01529	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	TXT_R01641	R01641	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	TAL_R08575	R08575	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	TXT_R01067	R01067	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	FBP_R00762	R00762	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	CSN_R00351	R00351	0.00885	0.00885	0.00805	0.00615	0.00477												
+concentration of enzyme	ACN_R00351	R00351	0.00474	0.00474	0.00422	0.00331	0.00283												
+concentration of enzyme	ACN_R01900	R01900	0.00474	0.00474	0.00422	0.00331	0.00283												
+concentration of enzyme	ICD_R00709	R00709	0.0155	0.0155	0.0155	0.0131	0.0139												
+concentration of enzyme	KGD_R08549	R08549	0.0103	0.0103	0.0106	0.00924	0.00817												
+concentration of enzyme	SCS_R00405	R00405	0.00887	0.00887	0.00846	0.0066	0.00518												
+concentration of enzyme	SDH_R02164	R02164	0.0049	0.0049	0.00456	0.00418	0.00351												
+concentration of enzyme	FUM_R01082	R01082	0.00236	0.00236	0.00205	0.00165	0.00128												
+concentration of enzyme	MDH_R00342	R00342	0.0045	0.0045	0.00449	0.0041	0.0039												
+concentration of enzyme	EDD_R02036	R02036	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	EDA_R05605	R05605	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	MAEA_R00214	R00214	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	PCK_R00341	R00341	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	PPC_R00345	R00345	0.00156	0.00156	0.00181	0.0018	0.00192												
+concentration of enzyme	ACEA_R00479	R00479	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	ACEB_R00472	R00472	NaN	NaN	NaN	NaN	NaN												
+concentration of enzyme	PTA_R00230	R00230	0.000973	0.000973	0.000996	0.000979	0.000952												
+concentration of enzyme	ACKA_R00315	R00315	0.000595	0.000595	0.000651	0.000641	0												
+concentration of enzyme	STH_R00112	R00112	NaN	NaN	NaN	NaN	NaN												
+!!SBtab TableName='Position' TableType='Position'																			
+!Element	!PositionX	!PositionY																	
+_S__Malate	0.328	0.0951																	
+Acetyl_CoA	0.359	0.229																	
+Fumarate	0.362	-0.00161																	
+cis_Aconitate	0.562	0.21																	
+_6_Phospho_D_gluconate	0.616	0.957																	
+Orthophosphate	0.0564	0.638																	
+Pyruvate	0.352	0.309																	
+NADPplus	0.0595	0.388																	
+NADPH	0.0611	0.447																	
+NADH	0.0595	0.562																	
+NADplus	0.058	0.506																	
+ATP	0.0564	0.698																	
+H2O	0.449	0.128																	
+_2_Oxoglutarate	0.644	0.0556																	
+Oxaloacetate	0.356	0.176																	
+Ubiquinone	0.331	-0.00941																	
+D_Erythrose_4_phosphate	0.504	0.871																	
+Ubiquinol	0.317	-0.0326																	
+ADP	0.0549	0.758																	
+Isocitrate	0.638	0.138																	
+D_Ribulose_5_phosphate	0.668	0.871																	
+D_Xylulose_5_phosphate	0.609	0.841																	
+D_Glucose_6_phosphate	0.352	0.965																	
+_3_Phospho_D_glyceroyl_phosphate	0.352	0.642																	
+CoA	0.392	0.279																	
+CO2	0.545	0.124																	
+D_Ribose_5_phosphate	0.614	0.761																	
+Glycerone_phosphate	0.268	0.746																	
+D_Glucose	0.111	0.966																	
+D_Fructose_1_6_bisphosphate	0.352	0.828																	
+D_Glyceraldehyde_3_phosphate	0.352	0.721																	
+Phosphoenolpyruvate	0.352	0.407																	
+Citrate	0.446	0.221																	
+Succinyl_CoA	0.586	-0.0187																	
+_3_Phospho_D_glycerate	0.352	0.569																	
+D_Glucono_1_5_lactone_6_phosphate	0.494	0.983																	
+D_Fructose_6_phosphate	0.352	0.895																	
+_2_Phospho_D_glycerate	0.352	0.486																	
+Succinate	0.466	-0.0512																	
+Sedoheptulose_7_phosphate	0.575	0.822																	
+PTS_RPTSsy	0.181	0.965																	
+PGI_R02740	0.352	0.924																	
+PFK_R04779	0.334	0.859																	
+ALD_R01070	0.352	0.791																	
+TIM_R01015	0.297	0.717																	
+GAP_R01061	0.352	0.683																	
+PGK_R01512	0.352	0.606																	
+PGM_R01518	0.352	0.524																	
+ENO_R00658	0.352	0.438																	
+PYK_R00200	0.352	0.354																	
+PDH_R00209	0.352	0.266																	
+ZWF_R00835	0.429	0.983																	
+GLH_R02035	0.585	0.974																	
+PGD_R01528	0.651	0.919																	
+RPI_R01056	0.664	0.919																	
+RPE_R01529	0.637	0.86																	
+TXT_R01641	0.502	0.736																	
+TAL_R08575	0.567	0.887																	
+TXT_R01067	0.427	0.838																	
+FBP_R00762	0.372	0.857																	
+CSN_R00351	0.393	0.198																	
+ACN_R00351	0.506	0.224																	
+ACN_R01900	0.614	0.176																	
+ICD_R00709	0.645	0.1																	
+KGD_R08549	0.622	0.0169																	
+SCS_R00405	0.535	-0.0373																	
+SDH_R02164	0.402	-0.0392																	
+FUM_R01082	0.34	0.0355																	
+MDH_R00342	0.334	0.141																	
+EDD_R02036	0.334	0.141																	
+EDA_R05605	0.334	0.141																	
+MAEA_R00214	0.334	0.141																	
+PCK_R00341	0.334	0.141																	
+PPC_R00345	0.334	0.141																	
+ACEA_R00479	0.334	0.141																	
+ACEB_R00472	0.334	0.141																	
+PTA_R00230	0.334	0.141																	
+ACKA_R00315	0.334	0.141																	
+STH_R00112	0.334	0.141																	
+Acetate	0.466	-0.0512																	
+Acetyl_phosphate	0.466	-0.0512																	
+Glyoxylate	0.466	-0.0512																	
+_2_Keto_3_deoxy_6_phospho_gluconate	0.466	-0.0512																	
+HCO3	0.466	-0.0512																	
+!!SBtab TableName='Proteomics' TableType='Quantity' Unit='copies_per_cell'																			
+!Bnumber	!Abundance																		
+b0002	203																		
+b0003	1505																		
+b0004	6394																		
+b0006	723																		
+b0008	8334																		
+b0009	424																		
+b0014	10486																		
+b0015	823																		
+b0023	862																		
+b0025	46																		
+b0026	300																		
+b0028	960																		
+b0029	554																		
+b0030	68																		
+b0031	788																		
+b0032	8486																		
+b0033	2219																		
+b0036	59																		
+b0046	45																		
+b0048	415																		
+b0049	100																		
+b0051	191																		
+b0052	104																		
+b0053	2300																		
+b0054	135																		
+b0058	118																		
+b0059	84																		
+b0068	110																		
+b0071	4420																		
+b0072	2988																		
+b0073	5279																		
+b0074	2655																		
+b0077	618																		
+b0078	1526																		
+b0080	97																		
+b0081	85																		
+b0082	580																		
+b0084	13																		
+b0085	346																		
+b0086	145																		
+b0088	728																		
+b0090	196																		
+b0091	452																		
+b0092	514																		
+b0094	847																		
+b0095	4101																		
+b0096	118																		
+b0098	423																		
+b0099	4																		
+b0101	582																		
+b0102	59																		
+b0103	53																		
+b0104	1564																		
+b0109	448																		
+b0110	167																		
+b0113	430																		
+b0114	4938																		
+b0115	4396																		
+b0116	8117																		
+b0118	4637																		
+b0119	171																		
+b0120	1724																		
+b0121	1183																		
+b0122	66																		
+b0123	1264																		
+b0124	4																		
+b0125	929																		
+b0126	3906																		
+b0127	324																		
+b0131	2626																		
+b0133	1412																		
+b0134	110																		
+b0142	214																		
+b0143	14																		
+b0144	48																		
+b0145	4415																		
+b0146	43																		
+b0150	31																		
+b0151	154																		
+b0152	46																		
+b0154	1769																		
+b0156	1707																		
+b0158	21																		
+b0159	2533																		
+b0161	2587																		
+b0163	2195																		
+b0166	7599																		
+b0167	11																		
+b0168	1899																		
+b0169	13957																		
+b0170	12668																		
+b0171	2439																		
+b0172	4858																		
+b0173	72																		
+b0174	31																		
+b0177	1526																		
+b0178	5682																		
+b0179	984																		
+b0180	1993																		
+b0181	595																		
+b0182	30																		
+b0183	82																		
+b0184	4																		
+b0185	2364																		
+b0187	189																		
+b0188	8																		
+b0189	529																		
+b0190	69																		
+b0192	31																		
+b0194	3338																		
+b0195	318																		
+b0196	340																		
+b0197	2894																		
+b0199	411																		
+b0200	854																		
+b0207	187																		
+b0208	30																		
+b0212	159																		
+b0214	132																		
+b0215	4																		
+b0219	219																		
+b0220	2503																		
+b0221	0																		
+b0222	3159																		
+b0223	125																		
+b0224	169																		
+b0226	215																		
+b0232	18																		
+b0237	2971																		
+b0238	2905																		
+b0239	24																		
+b0240	1043																		
+b0242	471																		
+b0243	1157																		
+b0259	56																		
+b0261	354																		
+b0268	22																		
+b0272	37																		
+b0273	819																		
+b0281	0																		
+b0287	33																		
+b0296	3																		
+b0304	53																		
+b0306	28																		
+b0308	13																		
+b0312	250																		
+b0321	1																		
+b0324	320																		
+b0325	2285																		
+b0329	5742																		
+b0331	157																		
+b0333	1																		
+b0334	28																		
+b0337	191																		
+b0345	23																		
+b0346	21																		
+b0350	7																		
+b0351	256																		
+b0352	73																		
+b0354	255																		
+b0355	52																		
+b0356	1114																		
+b0357	490																		
+b0360	34																		
+b0365	1																		
+b0368	2																		
+b0369	721																		
+b0376	36																		
+b0378	73																		
+b0381	364																		
+b0382	1594																		
+b0384	270																		
+b0386	1506																		
+b0387	201																		
+b0388	1151																		
+b0389	752																		
+b0390	178																		
+b0391	2374																		
+b0393	607																		
+b0394	294																		
+b0397	5																		
+b0398	42																		
+b0399	204																		
+b0404	22																		
+b0405	39																		
+b0406	736																		
+b0407	12																		
+b0408	0																		
+b0410	265																		
+b0411	478																		
+b0412	192																		
+b0413	377																		
+b0414	118																		
+b0415	7500																		
+b0416	1337																		
+b0417	48																		
+b0419	590																		
+b0420	168																		
+b0421	383																		
+b0422	1539																		
+b0423	21																		
+b0424	799																		
+b0425	25																		
+b0426	5021																		
+b0432	98																		
+b0434	1006																		
+b0435	1803																		
+b0436	10564																		
+b0437	2043																		
+b0438	2259																		
+b0439	881																		
+b0440	9657																		
+b0441	40																		
+b0442	41																		
+b0443	140																		
+b0444	192																		
+b0450	1003																		
+b0452	494																		
+b0453	2008																		
+b0456	75																		
+b0459	121																		
+b0460	711																		
+b0463	230																		
+b0467	8																		
+b0469	2863																		
+b0470	40																		
+b0471	4324																		
+b0472	72																		
+b0473	2262																		
+b0474	4604																		
+b0475	67																		
+b0477	134																		
+b0480	636																		
+b0481	494																		
+b0483	273																		
+b0484	1772																		
+b0485	352																		
+b0487	108																		
+b0490	83																		
+b0492	1887																		
+b0493	35																		
+b0494	311																		
+b0495	280																		
+b0503	11																		
+b0506	436																		
+b0508	6																		
+b0515	96																		
+b0516	0																		
+b0522	342																		
+b0523	2832																		
+b0525	6297																		
+b0526	821																		
+b0528	1535																		
+b0529	1664																		
+b0545	10																		
+b0553	17																		
+b0565	385																		
+b0567	5																		
+b0568	0																		
+b0571	518																		
+b0572	214																		
+b0573	16184																		
+b0574	2141																		
+b0578	3011																		
+b0579	177																		
+b0581	141																		
+b0584	44																		
+b0585	6																		
+b0592	212																		
+b0593	272																		
+b0594	18																		
+b0595	330																		
+b0596	89																		
+b0597	27																		
+b0598	4																		
+b0599	365																		
+b0600	43																		
+b0604	239																		
+b0605	24566																		
+b0606	1484																		
+b0607	1465																		
+b0608	19																		
+b0610	709																		
+b0611	461																		
+b0620	8																		
+b0623	10862																		
+b0628	526																		
+b0630	137																		
+b0631	3266																		
+b0632	1613																		
+b0633	365																		
+b0635	4																		
+b0636	496																		
+b0637	963																		
+b0639	13																		
+b0641	88																		
+b0642	106																		
+b0643	557																		
+b0651	50																		
+b0652	168																		
+b0655	3514																		
+b0658	195																		
+b0659	223																		
+b0660	1533																		
+b0661	510																		
+b0662	100																		
+b0674	345																		
+b0675	837																		
+b0676	17																		
+b0677	160																		
+b0678	1751																		
+b0680	1466																		
+b0683	3195																		
+b0684	2166																		
+b0685	35																		
+b0686	747																		
+b0687	1106																		
+b0688	1303																		
+b0694	59																		
+b0707	40																		
+b0710	249																		
+b0711	285																		
+b0712	123																		
+b0713	72																		
+b0714	22																		
+b0720	3805																		
+b0723	2050																		
+b0724	1586																		
+b0726	1253																		
+b0727	465																		
+b0728	3905																		
+b0729	5967																		
+b0730	54																		
+b0732	2																		
+b0733	1																		
+b0736	193																		
+b0740	3196																		
+b0741	215																		
+b0742	1608																		
+b0750	231																		
+b0753	1111																		
+b0754	5907																		
+b0755	10944																		
+b0756	1594																		
+b0757	342																		
+b0758	174																		
+b0759	1255																		
+b0760	10																		
+b0761	122																		
+b0763	1523																		
+b0765	13																		
+b0766	314																		
+b0767	3370																		
+b0772	356																		
+b0773	807																		
+b0774	107																		
+b0775	186																		
+b0776	211																		
+b0777	6																		
+b0778	688																		
+b0779	17																		
+b0780	33																		
+b0782	943																		
+b0783	376																		
+b0784	804																		
+b0785	765																		
+b0790	55																		
+b0800	1094																		
+b0801	1296																		
+b0802	136																		
+b0803	14																		
+b0804	144																		
+b0805	22																		
+b0806	6801																		
+b0807	143																		
+b0809	432																		
+b0811	4460																		
+b0812	1086																		
+b0814	271																		
+b0815	0																		
+b0817	103																		
+b0819	2543																		
+b0820	378																		
+b0821	158																		
+b0822	148																		
+b0825	51																		
+b0826	94																		
+b0827	516																		
+b0828	188																		
+b0835	317																		
+b0837	87																		
+b0838	1818																		
+b0839	1152																		
+b0840	164																		
+b0842	17																		
+b0844	106																		
+b0849	757																		
+b0851	773																		
+b0852	50																		
+b0854	2052																		
+b0855	71																		
+b0859	4																		
+b0860	5196																		
+b0863	2582																		
+b0864	661																		
+b0865	308																		
+b0866	225																		
+b0867	6																		
+b0868	11																		
+b0870	643																		
+b0871	99																		
+b0877	12																		
+b0880	1436																		
+b0882	629																		
+b0884	7999																		
+b0887	54																		
+b0888	3116																		
+b0889	6302																		
+b0890	1																		
+b0891	1192																		
+b0892	65																		
+b0893	2260																		
+b0897	1703																		
+b0901	45																		
+b0902	222																		
+b0903	2344																		
+b0905	12																		
+b0907	8827																		
+b0908	1444																		
+b0910	1212																		
+b0911	16452																		
+b0912	4823																		
+b0914	5																		
+b0917	1272																		
+b0918	939																		
+b0921	11																		
+b0922	25																		
+b0923	289																		
+b0924	36																		
+b0925	65																		
+b0927	1124																		
+b0928	4188																		
+b0929	275																		
+b0930	2690																		
+b0931	182																		
+b0932	190																		
+b0945	1279																		
+b0947	121																		
+b0948	21																		
+b0949	77																		
+b0951	1																		
+b0952	4																		
+b0953	138																		
+b0954	5526																		
+b0955	13																		
+b0956	248																		
+b0957	2546																		
+b0962	12																		
+b0963	1165																		
+b0965	1548																		
+b0966	15																		
+b0967	185																		
+b0968	304																		
+b0969	482																		
+b0980	36																		
+b0990	46																		
+b0995	1																		
+b1000	156																		
+b1002	851																		
+b1003	2704																		
+b1004	6429																		
+b1014	71																		
+b1018	685																		
+b1019	10																		
+b1033	807																		
+b1034	128																		
+b1035	1173																		
+b1037	27																		
+b1040	0																		
+b1045	291																		
+b1048	1856																		
+b1051	4322																		
+b1054	0																		
+b1055	92																		
+b1056	1317																		
+b1059	1183																		
+b1061	194																		
+b1062	4088																		
+b1063	33																		
+b1064	2430																		
+b1066	172																		
+b1067	481																		
+b1068	191																		
+b1071	200																		
+b1076	40																		
+b1084	916																		
+b1086	20																		
+b1087	1667																		
+b1088	1366																		
+b1089	1680																		
+b1090	14																		
+b1091	1971																		
+b1092	5268																		
+b1093	3724																		
+b1094	27869																		
+b1095	2191																		
+b1096	28																		
+b1098	120																		
+b1099	43																		
+b1100	248																		
+b1101	248																		
+b1103	2343																		
+b1105	147																		
+b1108	1133																		
+b1109	42																		
+b1110	52																		
+b1111	63																		
+b1112	279																		
+b1113	130																		
+b1114	284																		
+b1117	530																		
+b1119	108																		
+b1120	307																		
+b1123	1262																		
+b1126	327																		
+b1127	569																		
+b1128	851																		
+b1130	1657																		
+b1131	1157																		
+b1132	88																		
+b1133	947																		
+b1134	319																		
+b1136	17773																		
+b1145	157																		
+b1162	5																		
+b1165	0																		
+b1171	4																		
+b1172	0																		
+b1174	1552																		
+b1175	2394																		
+b1176	226																		
+b1178	733																		
+b1179	498																		
+b1180	569																		
+b1187	259																		
+b1188	2																		
+b1189	159																		
+b1190	34																		
+b1192	93																		
+b1193	291																		
+b1197	325																		
+b1198	471																		
+b1199	396																		
+b1200	700																		
+b1203	2578																		
+b1204	660																		
+b1207	5594																		
+b1208	92																		
+b1209	613																		
+b1210	25																		
+b1211	117																		
+b1212	2																		
+b1215	3017																		
+b1217	490																		
+b1219	1847																		
+b1221	630																		
+b1225	1																		
+b1232	1451																		
+b1233	187																		
+b1234	83																		
+b1235	2																		
+b1236	3390																		
+b1237	15448																		
+b1238	548																		
+b1241	3407																		
+b1243	7262																		
+b1246	11																		
+b1247	49																		
+b1248	140																		
+b1250	42																		
+b1251	1793																		
+b1252	37																		
+b1253	79																		
+b1256	33																		
+b1257	395																		
+b1258	360																		
+b1259	1																		
+b1260	5011																		
+b1261	3945																		
+b1262	460																		
+b1263	1539																		
+b1264	214																		
+b1267	1236																		
+b1269	29																		
+b1270	138																		
+b1271	127																		
+b1273	839																		
+b1274	111																		
+b1275	462																		
+b1276	220																		
+b1277	439																		
+b1280	14																		
+b1281	923																		
+b1282	486																		
+b1284	231																		
+b1286	1100																		
+b1288	6861																		
+b1290	30																		
+b1291	23																		
+b1294	57																		
+b1295	706																		
+b1299	66																		
+b1300	28																		
+b1303	46																		
+b1304	699																		
+b1308	791																		
+b1320	16																		
+b1321	14																		
+b1323	38																		
+b1324	25778																		
+b1325	102																		
+b1326	169																		
+b1327	48																		
+b1329	219																		
+b1333	1121																		
+b1334	642																		
+b1335	57																		
+b1340	57																		
+b1341	61																		
+b1343	10																		
+b1344	382																		
+b1356	81																		
+b1375	31																		
+b1376	1117																		
+b1378	9																		
+b1380	645																		
+b1383	3																		
+b1384	4																		
+b1385	39																		
+b1398	3																		
+b1400	190																		
+b1406	493																		
+b1412	2066																		
+b1413	14																		
+b1414	491																		
+b1415	2312																		
+b1422	53																		
+b1423	8																		
+b1424	111																		
+b1426	141																		
+b1427	47																		
+b1430	160																		
+b1431	1257																		
+b1434	15																		
+b1435	27																		
+b1440	542																		
+b1441	16																		
+b1444	29																		
+b1446	846																		
+b1448	259																		
+b1449	467																		
+b1452	2928																		
+b1461	258																		
+b1462	11																		
+b1464	136																		
+b1477	22																		
+b1478	0																		
+b1479	1063																		
+b1480	1835																		
+b1482	5263																		
+b1487	128																		
+b1493	134																		
+b1494	29																		
+b1495	1																		
+b1498	140																		
+b1501	6																		
+b1502	4																		
+b1512	45																		
+b1516	321																		
+b1517	287																		
+b1518	24																		
+b1519	267																		
+b1524	5																		
+b1525	168																		
+b1536	836																		
+b1537	129																		
+b1538	187																		
+b1539	3008																		
+b1540	96																		
+b1541	296																		
+b1550	2467																		
+b1557	2																		
+b1564	410																		
+b1566	7																		
+b1570	15																		
+b1580	1																		
+b1581	5																		
+b1583	1214																		
+b1584	197																		
+b1586	1066																		
+b1591	15																		
+b1593	25																		
+b1595	3																		
+b1598	15																		
+b1602	146																		
+b1603	80																		
+b1604	2482																		
+b1606	228																		
+b1608	250																		
+b1610	18																		
+b1611	336																		
+b1612	1269																		
+b1613	973																		
+b1614	882																		
+b1618	139																		
+b1619	652																		
+b1623	610																		
+b1624	81																		
+b1625	43																		
+b1629	2																		
+b1631	120																		
+b1633	87																		
+b1635	1363																		
+b1636	120																		
+b1637	769																		
+b1638	917																		
+b1640	133																		
+b1641	651																		
+b1642	635																		
+b1646	828																		
+b1647	442																		
+b1649	3																		
+b1650	290																		
+b1651	479																		
+b1652	249																		
+b1654	7340																		
+b1655	0																		
+b1656	2230																		
+b1658	921																		
+b1661	142																		
+b1662	645																		
+b1664	153																		
+b1667	1255																		
+b1668	70																		
+b1675	85																		
+b1676	5794																		
+b1677	753																		
+b1678	631																		
+b1679	243																		
+b1680	336																		
+b1681	416																		
+b1682	697																		
+b1683	97																		
+b1684	1086																		
+b1685	161																		
+b1686	878																		
+b1687	40																		
+b1693	607																		
+b1702	831																		
+b1703	266																		
+b1704	376																		
+b1706	70																		
+b1709	63																		
+b1710	1737																		
+b1712	4307																		
+b1713	2273																		
+b1714	3295																		
+b1716	414																		
+b1718	2480																		
+b1719	534																		
+b1722	2																		
+b1723	1524																		
+b1724	411																		
+b1725	362																		
+b1727	611																		
+b1729	7																		
+b1731	80																		
+b1732	316																		
+b1733	39																		
+b1736	1																		
+b1738	285																		
+b1739	1219																		
+b1740	3595																		
+b1743	583																		
+b1746	2																		
+b1748	67																		
+b1749	637																		
+b1754	85																		
+b1757	128																		
+b1759	271																		
+b1760	139																		
+b1761	8124																		
+b1763	4																		
+b1764	697																		
+b1765	2022																		
+b1766	3																		
+b1767	494																		
+b1768	128																		
+b1770	46																		
+b1777	176																		
+b1778	3173																		
+b1779	27520																		
+b1780	2140																		
+b1781	30																		
+b1782	162																		
+b1783	319																		
+b1787	362																		
+b1792	387																		
+b1793	6																		
+b1794	3																		
+b1804	17																		
+b1805	0																		
+b1806	39																		
+b1807	197																		
+b1809	3871																		
+b1810	19																		
+b1811	84																		
+b1812	34																		
+b1813	17																		
+b1814	212																		
+b1817	2566																		
+b1819	6																		
+b1822	96																		
+b1823	17921																		
+b1827	321																		
+b1829	37																		
+b1830	796																		
+b1831	789																		
+b1832	1244																		
+b1834	11																		
+b1835	4																		
+b1836	1680																		
+b1839	1513																		
+b1841	296																		
+b1844	17																		
+b1846	210																		
+b1847	2333																		
+b1848	259																		
+b1849	420																		
+b1850	4615																		
+b1851	81																		
+b1852	901																		
+b1853	58																		
+b1854	1715																		
+b1855	40																		
+b1857	515																		
+b1858	22																		
+b1860	135																		
+b1861	101																		
+b1864	1095																		
+b1865	9																		
+b1866	1563																		
+b1867	559																		
+b1868	1																		
+b1870	247																		
+b1871	54																		
+b1874	89																		
+b1875	294																		
+b1876	738																		
+b1881	2																		
+b1882	82																		
+b1887	8																		
+b1895	260																		
+b1896	299																		
+b1897	55																		
+b1901	451																		
+b1902	2																		
+b1905	147																		
+b1906	3																		
+b1908	471																		
+b1914	88																		
+b1915	680																		
+b1916	8																		
+b1917	306																		
+b1919	940																		
+b1920	2893																		
+b1922	7																		
+b1923	42																		
+b1927	66																		
+b1928	236																		
+b1930	2231																		
+b1931	6																		
+b1939	1																		
+b1945	1																		
+b1953	525																		
+b1955	154																		
+b1957	22																		
+b1960	13																		
+b1961	43																		
+b1962	2																		
+b1967	1793																		
+b1969	10																		
+b1970	1275																		
+b1971	24																		
+b1976	374																		
+b1982	457																		
+b1983	1236																		
+b1987	168																		
+b1990	125																		
+b1991	108																		
+b1993	30																		
+b2000	164																		
+b2007	11022																		
+b2009	499																		
+b2012	6275																		
+b2013	8																		
+b2016	743																		
+b2017	53																		
+b2019	2458																		
+b2020	2297																		
+b2021	1326																		
+b2022	549																		
+b2023	1485																		
+b2024	1081																		
+b2025	1407																		
+b2026	1721																		
+b2027	36																		
+b2028	10																		
+b2029	10172																		
+b2034	23																		
+b2036	1356																		
+b2038	674																		
+b2039	1049																		
+b2040	784																		
+b2041	1176																		
+b2042	3723																		
+b2065	397																		
+b2066	593																		
+b2069	29																		
+b2074	10																		
+b2079	156																		
+b2080	1640																		
+b2081	109																		
+b2086	114																		
+b2091	559																		
+b2093	6989																		
+b2094	3922																		
+b2095	1028																		
+b2096	4024																		
+b2097	89																		
+b2101	65																		
+b2103	28																		
+b2104	3																		
+b2107	720																		
+b2113	964																		
+b2114	519																		
+b2124	38																		
+b2125	147																		
+b2129	118																		
+b2131	504																		
+b2132	270																		
+b2133	565																		
+b2134	99																		
+b2137	166																		
+b2140	12																		
+b2143	634																		
+b2149	47																		
+b2150	1711																		
+b2151	8																		
+b2153	4997																		
+b2154	345																		
+b2155	176																		
+b2157	117																		
+b2159	85																		
+b2165	51																		
+b2168	48																		
+b2169	283																		
+b2171	2633																		
+b2172	0																		
+b2173	51																		
+b2175	51																		
+b2177	10																		
+b2181	95																		
+b2183	1783																		
+b2185	10903																		
+b2186	124																		
+b2187	1165																		
+b2188	3																		
+b2193	217																		
+b2206	1																		
+b2209	381																		
+b2210	167																		
+b2212	13																		
+b2215	185																		
+b2216	0																		
+b2217	1638																		
+b2220	7																		
+b2231	119																		
+b2232	969																		
+b2235	332																		
+b2239	227																		
+b2241	11																		
+b2242	7																		
+b2243	3																		
+b2249	7																		
+b2250	3																		
+b2251	21																		
+b2253	82																		
+b2259	353																		
+b2261	44																		
+b2262	651																		
+b2264	2																		
+b2265	1																		
+b2266	2398																		
+b2267	203																		
+b2268	179																		
+b2281	338																		
+b2283	398																		
+b2284	200																		
+b2285	1018																		
+b2286	27																		
+b2287	914																		
+b2289	57																		
+b2290	199																		
+b2291	133																		
+b2293	737																		
+b2294	2180																		
+b2296	3048																		
+b2297	1235																		
+b2299	343																		
+b2300	821																		
+b2301	392																		
+b2302	75																		
+b2303	1527																		
+b2304	109																		
+b2306	293																		
+b2309	6039																		
+b2310	3518																		
+b2312	468																		
+b2314	194																		
+b2315	108																		
+b2316	1754																		
+b2318	45																		
+b2319	1041																		
+b2320	585																		
+b2323	12179																		
+b2325	1079																		
+b2328	53																		
+b2329	983																		
+b2330	484																		
+b2331	35																		
+b2335	104																		
+b2340	404																		
+b2341	3																		
+b2342	49																		
+b2343	851																		
+b2344	23																		
+b2352	17																		
+b2366	144																		
+b2369	106																		
+b2379	75																		
+b2381	51																		
+b2388	236																		
+b2398	3																		
+b2399	15																		
+b2400	2048																		
+b2411	149																		
+b2414	28505																		
+b2415	18694																		
+b2416	5478																		
+b2417	13463																		
+b2418	355																		
+b2421	2069																		
+b2422	654																		
+b2425	3017																		
+b2426	287																		
+b2427	5																		
+b2428	59																		
+b2430	14																		
+b2431	512																		
+b2434	99																		
+b2435	27																		
+b2436	116																		
+b2439	118																		
+b2440	80																		
+b2449	53																		
+b2450	230																		
+b2457	5																		
+b2463	512																		
+b2464	1269																		
+b2465	999																		
+b2467	193																		
+b2468	5																		
+b2471	795																		
+b2472	355																		
+b2473	365																		
+b2475	8																		
+b2476	6404																		
+b2477	183																		
+b2478	3441																		
+b2479	319																		
+b2480	4877																		
+b2494	275																		
+b2495	1883																		
+b2496	11																		
+b2498	11594																		
+b2499	2591																		
+b2500	418																		
+b2501	3																		
+b2502	16																		
+b2507	2005																		
+b2508	2227																		
+b2510	252																		
+b2511	351																		
+b2512	202																		
+b2513	510																		
+b2514	1076																		
+b2515	746																		
+b2516	8																		
+b2517	134																		
+b2518	11499																		
+b2520	50																		
+b2521	715																		
+b2522	522																		
+b2523	439																		
+b2524	2607																		
+b2525	2841																		
+b2526	878																		
+b2527	921																		
+b2528	1450																		
+b2529	10088																		
+b2530	7653																		
+b2531	2188																		
+b2532	617																		
+b2533	1846																		
+b2545	2																		
+b2548	24																		
+b2551	18108																		
+b2552	193																		
+b2553	2733																		
+b2554	9																		
+b2557	394																		
+b2559	26																		
+b2561	44																		
+b2563	33																		
+b2564	976																		
+b2566	273																		
+b2567	628																		
+b2568	29																		
+b2569	352																		
+b2571	288																		
+b2572	357																		
+b2573	387																		
+b2574	2																		
+b2575	29																		
+b2576	255																		
+b2579	1105																		
+b2580	201																		
+b2581	1012																		
+b2582	548																		
+b2584	3																		
+b2585	27																		
+b2592	319																		
+b2593	88																		
+b2594	611																		
+b2595	563																		
+b2597	3045																		
+b2599	1542																		
+b2600	110																		
+b2601	1305																		
+b2606	2444																		
+b2607	118																		
+b2608	1427																		
+b2609	16838																		
+b2610	266																		
+b2614	5511																		
+b2615	37																		
+b2616	0																		
+b2618	100																		
+b2619	33																		
+b2620	19																		
+b2659	1																		
+b2660	8																		
+b2661	305																		
+b2662	240																		
+b2664	6																		
+b2665	3288																		
+b2667	143																		
+b2669	3949																		
+b2671	33																		
+b2672	762																		
+b2673	33																		
+b2676	72																		
+b2677	70																		
+b2679	350																		
+b2684	1069																		
+b2687	5949																		
+b2688	46																		
+b2690	116																		
+b2696	883																		
+b2697	1870																		
+b2699	1233																		
+b2700	167																		
+b2701	225																		
+b2704	89																		
+b2705	4																		
+b2707	55																		
+b2708	65																		
+b2714	17																		
+b2727	22																		
+b2733	66																		
+b2735	2																		
+b2739	7																		
+b2741	96																		
+b2742	180																		
+b2743	170																		
+b2744	230																		
+b2745	269																		
+b2746	16																		
+b2747	95																		
+b2750	589																		
+b2751	43																		
+b2752	2606																		
+b2753	15																		
+b2762	1527																		
+b2763	1962																		
+b2764	3237																		
+b2777	150																		
+b2779	17937																		
+b2780	1493																		
+b2781	6																		
+b2782	227																		
+b2783	30																		
+b2784	1																		
+b2785	18																		
+b2787	51																		
+b2790	674																		
+b2791	50																		
+b2792	132																		
+b2793	155																		
+b2794	215																		
+b2795	4																		
+b2796	3																		
+b2797	212																		
+b2798	48																		
+b2799	53																		
+b2800	1																		
+b2804	59																		
+b2805	63																		
+b2806	75																		
+b2808	17																		
+b2809	255																		
+b2810	89																		
+b2811	251																		
+b2812	48																		
+b2813	153																		
+b2817	20																		
+b2818	357																		
+b2819	0																		
+b2820	40																		
+b2821	64																		
+b2827	129																		
+b2829	1																		
+b2830	53																		
+b2834	930																		
+b2837	64																		
+b2838	688																		
+b2840	309																		
+b2842	52																		
+b2843	19																		
+b2844	12																		
+b2865	3																		
+b2867	9																		
+b2868	2																		
+b2870	5																		
+b2872	10																		
+b2877	44																		
+b2883	5																		
+b2889	255																		
+b2890	1956																		
+b2891	1593																		
+b2892	5																		
+b2893	1128																		
+b2895	116																		
+b2897	190																		
+b2898	2230																		
+b2900	1277																		
+b2901	24																		
+b2902	18																		
+b2903	87																		
+b2904	1083																		
+b2905	990																		
+b2906	31																		
+b2907	63																		
+b2908	347																		
+b2909	1794																		
+b2910	621																		
+b2912	35																		
+b2913	4341																		
+b2914	3698																		
+b2916	371																		
+b2922	237																		
+b2925	14635																		
+b2926	17199																		
+b2927	188																		
+b2935	3319																		
+b2936	408																		
+b2937	427																		
+b2938	720																		
+b2942	8937																		
+b2946	266																		
+b2947	815																		
+b2948	607																		
+b2949	31																		
+b2951	166																		
+b2953	71																		
+b2954	832																		
+b2955	7																		
+b2957	12																		
+b2958	296																		
+b2959	1929																		
+b2960	737																		
+b2962	3731																		
+b2963	80																		
+b2965	60																		
+b2976	618																		
+b2977	5																		
+b2980	43																		
+b2988	84																		
+b2989	984																		
+b2992	110																		
+b2993	60																		
+b2994	4																		
+b2996	148																		
+b2998	1																		
+b3001	186																		
+b3003	189																		
+b3005	15																		
+b3008	575																		
+b3010	56																		
+b3011	1390																		
+b3012	615																		
+b3017	144																		
+b3019	9																		
+b3020	47																		
+b3021	124																		
+b3024	2142																		
+b3025	70																		
+b3028	268																		
+b3029	926																		
+b3030	24																		
+b3031	192																		
+b3032	262																		
+b3033	14																		
+b3034	287																		
+b3035	87																		
+b3037	10																		
+b3038	320																		
+b3039	208																		
+b3041	408																		
+b3042	472																		
+b3049	27																		
+b3052	793																		
+b3054	34																		
+b3055	90																		
+b3056	63																		
+b3064	247																		
+b3065	1658																		
+b3066	20																		
+b3067	666																		
+b3068	332																		
+b3070	187																		
+b3071	172																		
+b3073	51																		
+b3075	45																		
+b3081	13																		
+b3084	42																		
+b3085	1																		
+b3087	72																		
+b3092	46																		
+b3094	86																		
+b3097	503																		
+b3098	2146																		
+b3100	0																		
+b3102	183																		
+b3105	121																		
+b3106	33																		
+b3114	30																		
+b3125	212																		
+b3126	31																		
+b3128	25																		
+b3129	260																		
+b3130	8																		
+b3131	31																		
+b3132	6																		
+b3133	98																		
+b3146	395																		
+b3147	275																		
+b3149	231																		
+b3150	160																		
+b3152	94																		
+b3153	368																		
+b3156	682																		
+b3157	6																		
+b3160	94																		
+b3162	545																		
+b3164	4269																		
+b3165	9346																		
+b3166	158																		
+b3167	2416																		
+b3168	275																		
+b3169	2507																		
+b3170	938																		
+b3172	6788																		
+b3175	13																		
+b3176	1251																		
+b3177	184																		
+b3178	10																		
+b3179	253																		
+b3180	4033																		
+b3181	2772																		
+b3182	102																		
+b3183	573																		
+b3185	843																		
+b3186	8500																		
+b3187	230																		
+b3189	742																		
+b3190	821																		
+b3191	470																		
+b3192	72																		
+b3195	257																		
+b3197	323																		
+b3198	621																		
+b3200	1484																		
+b3201	703																		
+b3202	196																		
+b3203	4146																		
+b3204	799																		
+b3205	323																		
+b3207	31																		
+b3208	0																		
+b3209	1694																		
+b3210	108																		
+b3212	432																		
+b3213	4515																		
+b3221	129																		
+b3222	83																		
+b3223	50																		
+b3225	114																		
+b3226	78																		
+b3228	539																		
+b3229	2982																		
+b3230	394																		
+b3231	13139																		
+b3232	18																		
+b3233	23																		
+b3234	650																		
+b3236	20054																		
+b3237	891																		
+b3238	35																		
+b3239	259																		
+b3244	703																		
+b3247	45																		
+b3248	137																		
+b3250	8																		
+b3251	4098																		
+b3253	388																		
+b3255	2812																		
+b3256	1744																		
+b3259	137																		
+b3260	11																		
+b3261	6007																		
+b3279	197																		
+b3280	302																		
+b3281	220																		
+b3282	419																		
+b3283	109																		
+b3287	1317																		
+b3288	795																		
+b3289	3																		
+b3290	94																		
+b3292	26																		
+b3294	1218																		
+b3295	9180																		
+b3296	745																		
+b3297	378																		
+b3298	2935																		
+b3299	2163																		
+b3301	1655																		
+b3302	6726																		
+b3303	15186																		
+b3304	5223																		
+b3305	19723																		
+b3306	9021																		
+b3307	197																		
+b3308	16323																		
+b3309	2618																		
+b3310	2880																		
+b3311	9140																		
+b3312	14150																		
+b3313	948																		
+b3314	718																		
+b3315	5100																		
+b3316	1136																		
+b3317	207																		
+b3318	1430																		
+b3319	11478																		
+b3320	7551																		
+b3321	17111																		
+b3336	499																		
+b3338	3																		
+b3339	58506																		
+b3340	16693																		
+b3341	3075																		
+b3342	247																		
+b3343	184																		
+b3344	94																		
+b3345	25																		
+b3346	575																		
+b3347	3545																		
+b3348	536																		
+b3349	11314																		
+b3351	115																		
+b3352	21																		
+b3353	18																		
+b3354	187																		
+b3355	188																		
+b3356	553																		
+b3357	3005																		
+b3359	4329																		
+b3360	152																		
+b3361	283																		
+b3362	123																		
+b3363	3339																		
+b3366	13																		
+b3368	54																		
+b3371	1																		
+b3375	12																		
+b3383	39																		
+b3384	2661																		
+b3385	843																		
+b3386	524																		
+b3387	74																		
+b3388	12																		
+b3389	516																		
+b3390	1807																		
+b3396	13																		
+b3397	437																		
+b3399	62																		
+b3400	61																		
+b3401	1004																		
+b3403	1835																		
+b3405	1639																		
+b3406	73																		
+b3407	326																		
+b3408	13																		
+b3410	4																		
+b3412	101																		
+b3414	4132																		
+b3417	55																		
+b3423	83																		
+b3425	273																		
+b3426	157																		
+b3429	13																		
+b3430	87																		
+b3432	49																		
+b3433	14133																		
+b3437	153																		
+b3438	212																		
+b3439	215																		
+b3440	436																		
+b3441	6																		
+b3447	238																		
+b3448	723																		
+b3449	43																		
+b3450	54																		
+b3453	1049																		
+b3454	907																		
+b3455	568																		
+b3458	3670																		
+b3459	164																		
+b3460	22264																		
+b3463	521																		
+b3464	1219																		
+b3465	82																		
+b3470	217																		
+b3472	600																		
+b3481	488																		
+b3487	13																		
+b3492	53																		
+b3495	17753																		
+b3497	246																		
+b3498	268																		
+b3499	832																		
+b3500	789																		
+b3503	75																		
+b3506	379																		
+b3509	4264																		
+b3510	19122																		
+b3513	1																		
+b3517	98																		
+b3519	11																		
+b3522	7																		
+b3524	20																		
+b3526	387																		
+b3527	375																		
+b3538	0																		
+b3540	188																		
+b3541	187																		
+b3543	4																		
+b3544	6461																		
+b3546	20																		
+b3551	10																		
+b3552	7																		
+b3553	3093																		
+b3554	475																		
+b3555	4																		
+b3556	1918																		
+b3559	1844																		
+b3560	561																		
+b3564	82																		
+b3565	18																		
+b3566	143																		
+b3569	4																		
+b3571	23																		
+b3572	26																		
+b3574	210																		
+b3579	10																		
+b3581	46																		
+b3588	81																		
+b3590	237																		
+b3591	113																		
+b3592	304																		
+b3594	31																		
+b3600	1001																		
+b3602	829																		
+b3604	17																		
+b3605	359																		
+b3606	97																		
+b3607	295																		
+b3608	1421																		
+b3609	7718																		
+b3610	3785																		
+b3611	34																		
+b3612	2881																		
+b3613	23																		
+b3614	126																		
+b3616	286																		
+b3617	161																		
+b3619	2180																		
+b3620	189																		
+b3621	62																		
+b3631	49																		
+b3633	4																		
+b3634	410																		
+b3636	1361																		
+b3637	784																		
+b3639	26																		
+b3640	2290																		
+b3641	79																		
+b3642	200																		
+b3643	71																		
+b3644	679																		
+b3645	0																		
+b3648	517																		
+b3649	4123																		
+b3651	11																		
+b3652	3																		
+b3661	716																		
+b3665	32																		
+b3669	69																		
+b3670	2575																		
+b3671	1922																		
+b3686	1049																		
+b3687	586																		
+b3688	4																		
+b3689	72																		
+b3693	12																		
+b3697	514																		
+b3698	313																		
+b3699	922																		
+b3700	34																		
+b3701	631																		
+b3702	107																		
+b3706	240																		
+b3708	291																		
+b3713	1135																		
+b3715	21																		
+b3724	16																		
+b3725	67																		
+b3728	181																		
+b3729	790																		
+b3730	737																		
+b3731	5894																		
+b3732	12169																		
+b3733	2988																		
+b3734	10440																		
+b3735	3455																		
+b3736	32																		
+b3740	238																		
+b3741	175																		
+b3742	2014																		
+b3743	114																		
+b3744	1416																		
+b3746	7																		
+b3748	674																		
+b3749	23																		
+b3751	3494																		
+b3752	328																		
+b3755	89																		
+b3764	5845																		
+b3770	2560																		
+b3771	574																		
+b3772	133																		
+b3773	8																		
+b3774	15922																		
+b3775	2119																		
+b3778	14																		
+b3780	421																		
+b3781	11157																		
+b3783	2960																		
+b3786	181																		
+b3787	107																		
+b3788	107																		
+b3789	49																		
+b3790	29																		
+b3791	32																		
+b3794	30																		
+b3803	11																		
+b3804	0																		
+b3805	315																		
+b3807	624																		
+b3809	362																		
+b3810	19																		
+b3811	46																		
+b3812	260																		
+b3813	4																		
+b3820	181																		
+b3826	336																		
+b3828	53																		
+b3829	14994																		
+b3830	1416																		
+b3831	1608																		
+b3833	988																		
+b3836	84																		
+b3838	62																		
+b3842	215																		
+b3843	46																		
+b3844	485																		
+b3845	252																		
+b3846	5																		
+b3847	1382																		
+b3848	108																		
+b3850	256																		
+b3856	24																		
+b3857	174																		
+b3858	1813																		
+b3859	53																		
+b3860	2686																		
+b3863	412																		
+b3865	972																		
+b3866	1102																		
+b3867	3																		
+b3868	75																		
+b3869	109																		
+b3870	14058																		
+b3871	2441																		
+b3872	6																		
+b3873	12																		
+b3881	19																		
+b3882	6																		
+b3884	52																		
+b3885	400																		
+b3887	122																		
+b3888	187																		
+b3891	171																		
+b3893	17																		
+b3894	12																		
+b3895	22																		
+b3908	4134																		
+b3910	137																		
+b3912	1214																		
+b3916	2820																		
+b3917	153																		
+b3919	8606																		
+b3920	46																		
+b3922	562																		
+b3923	318																		
+b3924	437																		
+b3925	189																		
+b3926	741																		
+b3928	7325																		
+b3929	1966																		
+b3931	1485																		
+b3932	177																		
+b3933	4																		
+b3934	44																		
+b3935	3																		
+b3936	10357																		
+b3938	2245																		
+b3939	501																		
+b3940	33																		
+b3941	3725																		
+b3942	1095																		
+b3945	87																		
+b3954	2																		
+b3955	7																		
+b3956	647																		
+b3957	1940																		
+b3958	3897																		
+b3959	4204																		
+b3960	1386																		
+b3961	235																		
+b3962	646																		
+b3965	144																		
+b3966	332																		
+b3967	179																		
+b3972	118																		
+b3973	4																		
+b3974	65																		
+b3982	4820																		
+b3983	7349																		
+b3984	10424																		
+b3985	12975																		
+b3986	19138																		
+b3987	3028																		
+b3988	713																		
+b3995	433																		
+b3996	179																		
+b3997	168																		
+b3998	220																		
+b3999	244																		
+b4000	30966																		
+b4002	44																		
+b4005	1770																		
+b4006	3104																		
+b4013	882																		
+b4014	470																		
+b4015	15279																		
+b4018	64																		
+b4019	307																		
+b4021	98																		
+b4022	45																		
+b4023	111																		
+b4024	325																		
+b4025	307																		
+b4034	825																		
+b4035	92																		
+b4036	21																		
+b4037	807																		
+b4039	98																		
+b4041	1																		
+b4043	339																		
+b4045	751																		
+b4046	309																		
+b4049	401																		
+b4051	905																		
+b4052	176																		
+b4053	57																		
+b4054	1520																		
+b4055	147																		
+b4056	200																		
+b4057	689																		
+b4058	34																		
+b4059	1509																		
+b4063	20																		
+b4067	0																		
+b4069	184																		
+b4078	128																		
+b4088	55																		
+b4089	31																		
+b4090	109																		
+b4092	51																		
+b4093	340																		
+b4107	427																		
+b4108	550																		
+b4113	133																		
+b4119	35																		
+b4122	15																		
+b4126	104																		
+b4129	274																		
+b4135	805																		
+b4137	428																		
+b4139	668																		
+b4142	12253																		
+b4143	14848																		
+b4144	505																		
+b4146	13																		
+b4147	4601																		
+b4149	18																		
+b4150	71																		
+b4153	190																		
+b4154	93																		
+b4155	35																		
+b4160	747																		
+b4161	361																		
+b4162	584																		
+b4167	111																		
+b4168	1013																		
+b4169	134																		
+b4170	47																		
+b4171	75																		
+b4172	90																		
+b4173	100																		
+b4174	1081																		
+b4175	132																		
+b4177	6544																		
+b4178	872																		
+b4179	33																		
+b4180	531																		
+b4188	4																		
+b4191	56																		
+b4194	28																		
+b4200	17890																		
+b4201	83																		
+b4202	5021																		
+b4203	13920																		
+b4206	106																		
+b4207	3303																		
+b4209	6																		
+b4211	285																		
+b4212	20																		
+b4213	306																		
+b4214	1082																		
+b4216	76																		
+b4219	1202																		
+b4220	8																		
+b4222	1276																		
+b4224	9																		
+b4226	4568																		
+b4227	548																		
+b4232	652																		
+b4233	363																		
+b4234	728																		
+b4235	1060																		
+b4238	22																		
+b4239	31																		
+b4240	2																		
+b4241	66																		
+b4243	11527																		
+b4244	11243																		
+b4245	13270																		
+b4248	15																		
+b4251	254																		
+b4252	17842																		
+b4254	1351																		
+b4255	5663																		
+b4256	46																		
+b4258	64																		
+b4259	122																		
+b4260	12																		
+b4263	36																		
+b4266	601																		
+b4267	274																		
+b4268	15																		
+b4269	153																		
+b4280	10																		
+b4287	14																		
+b4290	11																		
+b4291	1																		
+b4292	3																		
+b4295	87																		
+b4298	26																		
+b4302	9																		
+b4303	77																		
+b4305	2																		
+b4310	7																		
+b4316	58																		
+b4320	17																		
+b4322	249																		
+b4323	70																		
+b4324	122																		
+b4331	2																		
+b4348	9																		
+b4349	227																		
+b4350	4																		
+b4351	87																		
+b4352	95																		
+b4353	24																		
+b4359	2																		
+b4360	604																		
+b4361	59																		
+b4362	148																		
+b4367	62																		
+b4371	613																		
+b4372	312																		
+b4373	50																		
+b4374	90																		
+b4375	552																		
+b4376	4757																		
+b4377	4																		
+b4378	114																		
+b4381	1124																		
+b4382	415																		
+b4383	1863																		
+b4384	156																		
+b4386	84																		
+b4388	15																		
+b4389	145																		
+b4390	98																		
+b4391	2028																		
+b4392	197																		
+b4393	491																		
+b4394	415																		
+b4395	277																		
+b4396	132																		
+b4397	590																		
+b4398	39																		
+b4401	2941																		
+b4403	100																		
+b4406	1422																		
+b4411	5																		
+b4468	8																		
+b4469	0																		
+b4470	2																		
+b4472	3																		
+b4477	9																		
+b4478	19																		
+b4479	103																		
+b4480	73																		
+b4483	10																		
+b4484	208																		
+b4488	153																		
+b4498	7																		
+b4511	67																		
+b4512	202																		
+b4517	104																		
+b4518	17																		
+b4523	105																		
+b4537	392																		
+b4546	79																		
+b4551	454																		
+b4554	1697																		
+b4555	105																		
+b4558	78																		
+b4565	147																		
+b4571	3																		
+b4596	14																		
+b4606	2																		

@@ -15,6 +15,7 @@
 % --------------------------------------------------------
 % Set file names
 
+ecm_BASEDIR = [pwd() '/'];
 
 data_DIR   = [ecm_BASEDIR 'demo/data/'];
 
