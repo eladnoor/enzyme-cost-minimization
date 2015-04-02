@@ -8,7 +8,7 @@ equilibrium constant	0.109			TIM_R01015	R01015	-
 equilibrium constant	0.000369			GAP_R01061	R01061	-
 equilibrium constant	1800			PGK_R01512	R01512	-
 equilibrium constant	0.19			PGM_R01518	R01518	-
-equilibrium constant	5.15			PGH_R00658	R00658	-
+equilibrium constant	5.15			ENO_R00658	R00658	-
 equilibrium constant	21000			PYK_R00200	R00200	-
 equilibrium constant	1530000			PDH_R00209	R00209	-
 equilibrium constant	12.7			ZWF_R00835	R00835	-
@@ -47,7 +47,7 @@ catalytic rate constant geometric mean	1590			TIM_R01015	R01015	1/s
 catalytic rate constant geometric mean	208			GAP_R01061	R01061	1/s
 catalytic rate constant geometric mean	629			PGK_R01512	R01512	1/s
 catalytic rate constant geometric mean	213			PGM_R01518	R01518	1/s
-catalytic rate constant geometric mean	219			PGH_R00658	R00658	1/s
+catalytic rate constant geometric mean	219			ENO_R00658	R00658	1/s
 catalytic rate constant geometric mean	262			PYK_R00200	R00200	1/s
 catalytic rate constant geometric mean	50			PDH_R00209	R00209	1/s
 catalytic rate constant geometric mean	259			ZWF_R00835	R00835	1/s
@@ -112,7 +112,7 @@ Michaelis constant	0.11	ATP	C00002	PFK_R04779	R04779	mM
 Michaelis constant	0.499	ATP	C00002	PGK_R01512	R01512	mM
 Michaelis constant	5.05	ATP	C00002	PYK_R00200	R00200	mM
 Michaelis constant	0.0288	ATP	C00002	SCS_R00405	R00405	mM
-Michaelis constant	17.6	H2O	C00001	PGH_R00658	R00658	mM
+Michaelis constant	17.6	H2O	C00001	ENO_R00658	R00658	mM
 Michaelis constant	0.00115	H2O	C00001	GLH_R02035	R02035	mM
 Michaelis constant	0.0093	H2O	C00001	FBP_R00762	R00762	mM
 Michaelis constant	0.000071	H2O	C00001	CSN_R00351	R00351	mM
@@ -167,7 +167,7 @@ Michaelis constant	4.1	D_Glyceraldehyde_3_phosphate	C00118	TXT_R01641	R01641	mM
 Michaelis constant	0.0606	D_Glyceraldehyde_3_phosphate	C00118	TAL_R08575	R08575	mM
 Michaelis constant	4.95	D_Glyceraldehyde_3_phosphate	C00118	TXT_R01067	R01067	mM
 Michaelis constant	0.0012	Phosphoenolpyruvate	C00074	PTS_RPTSsy	RPTSsy	mM
-Michaelis constant	0.573	Phosphoenolpyruvate	C00074	PGH_R00658	R00658	mM
+Michaelis constant	0.573	Phosphoenolpyruvate	C00074	ENO_R00658	R00658	mM
 Michaelis constant	0.0111	Phosphoenolpyruvate	C00074	PYK_R00200	R00200	mM
 Michaelis constant	0.00656	Citrate	C00158	CSN_R00351	R00351	mM
 Michaelis constant	0.00121	Citrate	C00158	ACN_R00351	R00351	mM
@@ -183,7 +183,7 @@ Michaelis constant	0.662	D_Fructose_6_phosphate	C00085	TAL_R08575	R08575	mM
 Michaelis constant	6.99	D_Fructose_6_phosphate	C00085	TXT_R01067	R01067	mM
 Michaelis constant	1.08	D_Fructose_6_phosphate	C00085	FBP_R00762	R00762	mM
 Michaelis constant	0.0282	_2_Phospho_D_glycerate	C00631	PGM_R01518	R01518	mM
-Michaelis constant	0.248	_2_Phospho_D_glycerate	C00631	PGH_R00658	R00658	mM
+Michaelis constant	0.248	_2_Phospho_D_glycerate	C00631	ENO_R00658	R00658	mM
 Michaelis constant	1.68	Succinate	C00042	SCS_R00405	R00405	mM
 Michaelis constant	0.1	Succinate	C00042	SDH_R02164	R02164	mM
 Michaelis constant	3.37	Sedoheptulose_7_phosphate	C05382	TXT_R01641	R01641	mM
@@ -234,7 +234,7 @@ substrate catalytic rate constant	2000			TIM_R01015	R01015	1/s
 substrate catalytic rate constant	268			GAP_R01061	R01061	1/s
 substrate catalytic rate constant	654			PGK_R01512	R01512	1/s
 substrate catalytic rate constant	530			PGM_R01518	R01518	1/s
-substrate catalytic rate constant	78			PGH_R00658	R00658	1/s
+substrate catalytic rate constant	78			ENO_R00658	R00658	1/s
 substrate catalytic rate constant	232			PYK_R00200	R00200	1/s
 substrate catalytic rate constant	50			PDH_R00209	R00209	1/s
 substrate catalytic rate constant	174			ZWF_R00835	R00835	1/s
@@ -273,7 +273,7 @@ product catalytic rate constant	1270			TIM_R01015	R01015	1/s
 product catalytic rate constant	161			GAP_R01061	R01061	1/s
 product catalytic rate constant	604			PGK_R01512	R01512	1/s
 product catalytic rate constant	85.5			PGM_R01518	R01518	1/s
-product catalytic rate constant	616			PGH_R00658	R00658	1/s
+product catalytic rate constant	616			ENO_R00658	R00658	1/s
 product catalytic rate constant	296			PYK_R00200	R00200	1/s
 product catalytic rate constant	50			PDH_R00209	R00209	1/s
 product catalytic rate constant	385			ZWF_R00835	R00835	1/s
